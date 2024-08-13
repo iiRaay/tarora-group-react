@@ -205,16 +205,26 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Hide overflow to ensure clean edges */
 }
+
+/* Style the video background */
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire element */
+  z-index: -1; /* Ensure the video is behind the content */
+}
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -247,6 +257,8 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 #features i.fa {
   font-size: 38px;
@@ -352,7 +364,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;

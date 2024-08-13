@@ -1,10 +1,15 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "TARORA REJUVENATION",
+    "paragraph": "Realize the skin of your dreams"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": [
+      "Welcome to Tarora Rejuvenation, where beauty meets wellness.",
+      "Founded by Meena Bagga, a seasoned expert with over two decades of experience in the beauty and wellness industry, Tarora Rejuvenation is dedicated to enhancing the health and radiance of your skin. Meena's passion and expertise are the driving forces behind our commitment to providing top-tier services that prioritize your comfort, quality, and beauty.",
+      "At Tarora Rejuvenation, we pride ourselves on offering a carefully curated range of medical-grade products and services, all designed to inspire confidence and rejuvenation. Our mission is to ensure that every client leaves feeling beautiful, refreshed, and truly cared for.",
+      "We look forward to welcoming you soon and helping you achieve the radiant skin you deserve."
+    ],
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -131,24 +136,24 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/meena.png",
+      "name": "Meena",
+      "job": "CEO"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/tarannum.png",
+      "name": "Tarannum",
+      "job": "General Manager"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/jordon.png",
+      "name": "Jordon",
+      "job": "Medical Esthetician"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/rahab.png",
+      "name": "Rahab",
+      "job": "Registered Nurse"
     }
   ],
   "Contact": {

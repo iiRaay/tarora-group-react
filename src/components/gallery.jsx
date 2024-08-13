@@ -8,11 +8,12 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            See the latest photos
           </p>
         </div>
-        <div className="row">
+        
+        {/* <div className="row">
+          
           <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (
@@ -29,6 +30,16 @@ export const Gallery = (props) => {
                 ))
               : "Loading..."}
           </div>
+        </div> */}
+      <div style={{ margin: "0 auto", width: "91%", maxWidth: "1200px", height: "500px" }}>
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+        <iframe
+          src="https://cdn.lightwidget.com/widgets/97e66287863c591381ca06e13ed9a6af.html"
+          scrolling="no"
+          allowTransparency="true"
+          className="lightwidget-widget"
+          style={{ width: "100%", height: "100%", border: "none" }}
+          ></iframe>
         </div>
       </div>
     </div>
