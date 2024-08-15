@@ -161,13 +161,12 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
+    "address": "50 Nolanridge Ct NW #140, Calgary, AB T3R 1W7",
+    "phone": "1-403-910-1741",
+    "email": "tarorarejuvenationyyc@gmail.com",
+    "facebook": "https://www.facebook.com/tarorarejuvenation/",
+    "instagram": "https://www.instagram.com/tarorarejuvenation/"
+    },
   "Features": [
     {
       "icon": "fa fa-comments-o",

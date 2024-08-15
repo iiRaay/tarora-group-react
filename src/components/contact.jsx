@@ -135,13 +135,8 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>
@@ -153,9 +148,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
+            &copy; 2024 All rights reserved | Managed by{" "}
+            <a href="https://www.instagram.com/pulsefiremarketing/" rel="nofollow">
+              Pulsefire Marketing
             </a>
           </p>
         </div>
