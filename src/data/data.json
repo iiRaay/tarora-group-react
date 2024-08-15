@@ -138,22 +138,26 @@
     {
       "img": "img/team/meena.png",
       "name": "Meena",
-      "job": "CEO"
+      "job": "CEO",
+      "bio": "As the founder of Tarora Rejuvenation, Meena brings with her decades of experience around the aesthetics and medical industry as she has always been around professionals. She brings great insight and compassion in what she does, ensuring everyone is well taken care of and is delightful and satisfied with their experience."
     },
     {
       "img": "img/team/tarannum.png",
       "name": "Tarannum",
-      "job": "General Manager"
+      "job": "General Manager",
+      "bio": "As the general manager of Tarora Rejuvenation Tarannum is currently in the final stages of finishing her medical degree & has been working with medical professionals for over 5 years. She continually strives forward and keeps her knowledge up to date with the cutting edge advancements in the medical-aesthetics field to ensure everything she does exceeds the current Aesesthics medical standard."
     },
     {
       "img": "img/team/jordon.png",
       "name": "Jordon",
-      "job": "Medical Esthetician"
+      "job": "Medical Esthetician",
+      "bio": "As a leading Clinical Esthetician of Tarora Rejuvenation, Jordan has over 5 years in the beauty industry and has the know-how's of many different procedures and treatments. She provides top of the line recommendations with various solutions so you are always informed and can make the best possible decision to look as stunning as possible."
     },
     {
       "img": "img/team/rahab.png",
       "name": "Rahab",
-      "job": "Registered Nurse"
+      "job": "Registered Nurse",
+      "bio": "As the Premier registered nurse of Tarora Rejuvenation, Rahab brings extensive medical and Aesthetical experience to the field, With over 10 years of experience as a nurse, and over 5 years as an injector; she strives to make the beauty process as relaxing as possible while making you look astonishingly captivating."
     }
   ],
   "Contact": {
