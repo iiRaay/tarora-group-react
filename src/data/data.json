@@ -166,27 +166,52 @@
     "email": "tarorarejuvenationyyc@gmail.com",
     "facebook": "https://www.facebook.com/tarorarejuvenation/",
     "instagram": "https://www.instagram.com/tarorarejuvenation/"
-    },
+  },
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Botox",
+      "text": "Botox description"
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Derma Fillers",
+      "text": "Derma fillers description"
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Dermaplaning",
+      "text": "dermaplaning"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Eyebrow Lamination",
+      "text": "Eyebrow Lamination"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Eyebrow Tinting",
+      "text": "Eyebrow tinting"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Facial",
+      "text": "facial"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Hair Removal",
+      "text": "Hair removeal"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Microneedling",
+      "text": "Microneedling"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Skin Tightening",
+      "text": "skin tightning"
     }
   ]
 }
