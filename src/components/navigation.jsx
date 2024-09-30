@@ -62,6 +62,16 @@ export const Navigation = (props) => {
                 Contact
               </a>
             </li>
+            <li>
+              <a href="https://ca.alumiermd.com/collections/all?code=5677059C">
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="https://tarorarejuvenation.janeapp.com/">
+                Book Now
+              </a>
+            </li>
           </ul>
         </div>
       </div>
