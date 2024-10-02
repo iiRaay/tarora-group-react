@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export const Team = (props) => {
   const [showMore, setShowMore] = useState(false);
+
+  const toggleShowMore = () => {
+    setShowMore(!showMore);
+  };
 
   return (
     <div id="team" className="text-center">
@@ -10,13 +14,9 @@ export const Team = (props) => {
           <h2>Meet the Team</h2>
           <p>Meet the passionate minds driving our success.</p>
         </div>
-        <div id="row">
+        <div id="row" className="row">
           {props.data
             ? props.data.map((d, i) => {
-                const toggleShowMore = () => {
-                  setShowMore(!showMore);
-                };
-
                 const bioPreview = d.bio.split(" ").slice(0, 20).join(" ");
                 const fullBio = d.bio;
 
@@ -27,7 +27,9 @@ export const Team = (props) => {
                       <div className="caption">
                         <h4>{d.name}</h4>
                         <p>{d.job}</p>
-                        <p>
+                        <p
+                          className={showMore ? "full-bio" : "bio-preview"}
+                        >
                           {showMore ? fullBio : `${bioPreview}...`}
                         </p>
                         <p>
@@ -36,7 +38,8 @@ export const Team = (props) => {
                             style={{ color: "blue", cursor: "pointer" }}
                           >
                             {showMore ? " Show less" : " Show more"}
-                          </span></p>
+                          </span>
+                        </p>
                       </div>
                     </div>
                   </div>
