@@ -1,0 +1,112 @@
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-container .header-text {
+    margin: 0 20px; /* Space between text and lines */
+    font-family: serif; /* Change to your preferred font */
+    color: #333; /* Text color */
+    font-size: 5rem; /* Adjust font size if needed */
+    text-decoration: none; /* Remove underline */
+}
+
+.header-text::after {
+    content: ''; 
+    display: none; 
+}
+.about__founder-image {
+    max-width: 450px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.about__image-container {
+    justify-content: center;
+}
+
+.about__our-mission-text-container {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.line-1 {
+    flex: 1;
+    height: 2px; /* Adjust thickness of the line */
+    background: linear-gradient(to left, transparent, rgb(184, 134, 10), rgb(184, 134, 15), rgb(184, 134, 20));
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.line-2 {
+    flex: 1;
+    height: 2px; /* Adjust thickness of the line */
+    background: linear-gradient(to right, transparent, rgb(184, 134, 10), rgb(184, 134, 15), rgb(184, 134, 20));
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.line-1::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px dotted rgb(184, 134, 10); 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    left: -5px; 
+    top: -3.5px;
+    transform: rotate(180deg); 
+}
+
+.line-2::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px dotted rgb(184, 134, 10); 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    right: -5px; 
+    top: -3.5px; 
+}
+
+
+@media screen and (max-width: 1150px) {
+
+    .about__our-mission-text-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .header-container .header-text {
+        font-size: 4rem;
+    }
+}
+
+
+@media screen and (max-width:650px){
+   .header-container .header-text {
+    font-size: 3.5rem;
+   }
+
+   .about__our-mission-text-container {
+    padding-left: 1em;
+    padding-right: 1em;
+   }
+
+   .about__founder-image {
+    max-width: 400px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+}
+
+@media screen and (max-width: 450px) {
+    .about__our-mission-text-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .about__founder-image {
+        max-width: 400px; /* Adjust the size as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
