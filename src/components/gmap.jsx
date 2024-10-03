@@ -6,7 +6,7 @@ export const Gmap = () => {
     const gMapPosition = {lat: 51.17079818472753, lng:-114.16830533845202};
     const [openMap, setOpen] = useState(false)
   return (
-    <APIProvider apiKey='AIzaSyAN55nfOEffDzItz7pmEpt2nVpQKtOy45o'>
+    <APIProvider apiKey='AIzaSyDY1ABMYkelKhsNxvWGnMF2Ie3LXOXf4ss'>
         <div id="googleMap">
             <Map defaultZoom={16} defaultCenter={gMapPosition} >
               <Marker position={gMapPosition} onClick={()=> setOpen(true)}></Marker>
