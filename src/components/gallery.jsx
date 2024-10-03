@@ -5,10 +5,10 @@ export const Gallery = (props) => {
   return (
     <div id="portfolio" className="text-center">
       <div className="container">
-        <div className="section-title">
+        <div className="section-title" >
           <h2>Gallery</h2>
-          <p>
-            See the latest photos
+          <p id="gallaryCaption">
+            See Our Latest Post!
           </p>
         </div>
         

@@ -643,3 +643,8 @@ label {
     margin: 50px 0;
   }
 }
+
+#googleMap{
+  height: 50%;
+  width: 100%;
+}
