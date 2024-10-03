@@ -1,7 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
-
+import { Gmap } from "./gmap";
 const initialState = {
   name: "",
   email: "",
@@ -145,6 +145,7 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
+      <Gmap></Gmap>
       <div id="footer">
         <div className="container text-center">
           <p>
