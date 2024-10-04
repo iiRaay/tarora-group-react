@@ -188,48 +188,100 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Botox",
-      "text": "Botox description"
+      "title": "Microneedling",
+      "text": "",
+      "url": "microneedling"
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Derma Fillers",
-      "text": "Derma fillers description"
+      "title": "Dermaplaning",
+      "text": "",
+      "url": "dermaplaning"
     },
     {
       "icon": "fa fa-group",
-      "title": "Dermaplaning",
-      "text": "dermaplaning"
+      "title": "Hydrafacial",
+      "text": "",
+      "url": "hydrafacial"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Eyebrow Lamination",
-      "text": "Eyebrow Lamination"
+      "title": "Acne Solutions Facial",
+      "text": "",
+      "url": "acne-solutions-facial"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Chemical Peel",
+      "text": "",
+      "url": "chemical-peel"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Restore & Rejuvenate",
+      "text": "",
+      "url": "restore-rejuvenate"
     },
     {
       "icon": "fa fa-magic",
       "title": "Eyebrow Tinting",
-      "text": "Eyebrow tinting"
+      "text": "",
+      "url": "eyebrow-tinting"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Facial",
-      "text": "facial"
+      "title": "Eyebrow Lamination",
+      "text": "",
+      "url": "eyebrow-lamination"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Hair Removal",
-      "text": "Hair removeal"
+      "title": "Botox",
+      "text": "",
+      "url": "botox"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Microneedling",
-      "text": "Microneedling"
+      "title": "Dermal Fillers",
+      "text": "",
+      "url": "dermal-fillers"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Skin Tightening",
-      "text": "skin tightning"
+      "title": "Threading",
+      "text": "",
+      "url": "threading"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Laser Hair Removal",
+      "text": "",
+      "url": "laser-hair-removal"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Waxing",
+      "text": "",
+      "url": "waxing"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Morpheus 8",
+      "text": "",
+      "url": "morpheus-8"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lumecca IPL Facial",
+      "text": "",
+      "url": "lumecca-ipl-facial"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Forma RF Skin Tightening Facial",
+      "text": "",
+      "url": "forma-rf-skin-tightening-facial"
     }
-  ]
+  ],
+  "": {}
 }
