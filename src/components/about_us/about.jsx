@@ -10,7 +10,7 @@ export const About = (props) => {
                 <h2 className="header-text">Welcome</h2>
             <div className="line-2"></div>
           </div>
-            <div className="about__welcome-text">
+            <div className="about__text-container">
                 { props.data ? props.data.paragraph.map((p, i) => {
                     return <p style={{fontSize:20}} key={i}>{p}</p>;
                   }) : "...loading"
@@ -18,21 +18,23 @@ export const About = (props) => {
           </div>
         </div>
       </div>
+      <div id="ourmission"> 
+        <div  className="container ourmissioncontainer">
+          <div className="row">
+            <div className="header-container">
+            <div className="line-1"></div>
+                <h2 className="header-text">Our Mission</h2>
+              <div className="line-2"></div>
+            </div>
 
-      <div className="container">
-        <div className="row">
-          <div className="header-container">
-          <div className="line-1"></div>
-              <h2 className="header-text">Our Mission</h2>
-            <div className="line-2"></div>
+            <div className="about__text-container">
+            { props.data ? props.data.ourmission.map((p, i) => {
+                      return <p style={{fontSize:20}} key={i}>{p}</p>;
+                    }) : "...loading"
+                  }
+            </div>
+            
           </div>
-          <div className="about__our-mission-text-container">
-          { props.data ? props.data.ourmission.map((p, i) => {
-                    return <p style={{fontSize:20}} key={i}>{p}</p>;
-                  }) : "...loading"
-                }
-          </div>
-          
         </div>
       </div>
 

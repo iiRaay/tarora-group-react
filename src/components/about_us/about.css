@@ -2,14 +2,26 @@
 .header-container {
     display: flex;
     align-items: center;
+    padding:4rem;
 }
+
+
 .header-container .header-text {
-    margin: 0 20px; /* Space between text and lines */
-    font-family: serif; /* Change to your preferred font */
+    margin: 0 20px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #333; /* Text color */
     font-size: 5rem; /* Adjust font size if needed */
     text-decoration: none; /* Remove underline */
 }
+
+.ourmissioncontainer {
+    background-color: blanchedalmond;
+   
+} 
+.container {
+    margin-bottom: 4rem;
+}
+
 
 .header-text::after {
     content: ''; 
@@ -21,10 +33,11 @@
 }
 
 .about__image-container {
+    display: flex;
     justify-content: center;
 }
 
-.about__our-mission-text-container {
+.about__text-container p{
     padding-left: 4em;
     padding-right: 4em;
 }
@@ -71,15 +84,28 @@
 }
 
 
-@media screen and (max-width: 1150px) {
+@media screen and (min-width: 1150px) {
 
-    .about__our-mission-text-container {
+    .about__text-container {
         padding-left: 1rem;
         padding-right: 1rem;
     }
     .header-container .header-text {
         font-size: 4rem;
+
     }
+    .line-1, .line-2{
+        height: 4px; /* Adjust thickness of the line */
+    }
+
+    .line-1::before, .line-2::after {
+        border-left: 15px dotted rgb(184, 134, 10); 
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        top:-4.5px
+    }
+
+
 }
 
 
@@ -88,7 +114,7 @@
     font-size: 3.5rem;
    }
 
-   .about__our-mission-text-container {
+   .about__text-container {
     padding-left: 1em;
     padding-right: 1em;
    }
@@ -96,7 +122,8 @@
    .about__founder-image {
     max-width: 400px; /* Adjust the size as needed */
     height: auto; /* Maintain aspect ratio */
-}
+    }
+ 
 }
 
 @media screen and (max-width: 450px) {
