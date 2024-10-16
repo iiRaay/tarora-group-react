@@ -21,15 +21,16 @@ export const Team = (props) => {
                 const fullBio = d.bio;
 
                 return (
-                  <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
+                  <div
+                    key={`${d.name}-${i}`}
+                    className="col-md-3 col-sm-6 team"
+                  >
                     <div className="thumbnail">
                       <img src={d.img} alt="..." className="team-img" />
                       <div className="caption">
                         <h4>{d.name}</h4>
                         <p>{d.job}</p>
-                        <p
-                          className={showMore ? "full-bio" : "bio-preview"}
-                        >
+                        <p className={showMore ? "full-bio" : "bio-preview"}>
                           {showMore ? fullBio : `${bioPreview}...`}
                         </p>
                         <p>

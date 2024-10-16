@@ -8,9 +8,11 @@ import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import BeforeAfter from "./components/BeforeAfter";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -21,7 +23,7 @@ const App = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-  return ( 
+  return (
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
@@ -29,12 +31,11 @@ const App = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
+      <BeforeAfter />
       {/* <Testimonials data={landingPageData.Testimonials} /> */}
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
-      
     </div>
-    
   );
 };
 
