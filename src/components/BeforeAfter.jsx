@@ -5,7 +5,7 @@ import BAitem from "./BAitem.jsx";
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 768 },
-    items: 3,
+    items: 2,
   },
   tablet: {
     breakpoint: { max: 768, min: 464 },
@@ -39,6 +39,29 @@ const baitemData = [
     name: "treatment4",
   },
 ];
+
+// Custom Left Arrow Component
+const CustomLeftArrow = ({ onClick }) => {
+  return (
+    <button
+      className="left-arrow"
+      onClick={onClick}
+      aria-label="Previous Slide"
+    >
+      &#11164; {/*Black leftwards Equilateral Arrowhead html code*/}
+    </button>
+  );
+};
+
+// Custom Right Arrow Component
+const CustomRightArrow = ({ onClick }) => {
+  return (
+    <button className="right-arrow" onClick={onClick} aria-label="Next Slide">
+      &#11166; {/*Black Rightwards Equilateral Arrowhead html code*/}
+    </button>
+  );
+};
+
 /*Map carousel item img(imagepath)and caption(name) from baitemData array to pass into carousel */
 const carouselItem = baitemData.map((item) => (
   <BAitem name={item.name} imgPath={item.imagepath} />
@@ -50,7 +73,13 @@ const BeforeAfter = () => {
         <h3 id="BAtitle">Before & After</h3>
       </div>
       <div className="container">
-        <Carousel responsive={responsive} showDots={true} infinite={true}>
+        <Carousel
+          responsive={responsive}
+          showDots={true}
+          infinite={true}
+          customLeftArrow={<CustomLeftArrow />}
+          customRightArrow={<CustomRightArrow />}
+        >
           {carouselItem}
         </Carousel>
       </div>

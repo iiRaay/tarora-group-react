@@ -671,4 +671,22 @@ label {
   position:relative;
   font-weight: 800;
   font-size: 36px;
+  text-transform: uppercase;
+}
+
+.left-arrow,.right-arrow{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: clamp(3rem, 5vw, 5rem);
+  color: #ccae4c;
+  
+}
+.left-arrow{
+  left: 10px;
+}
+.right-arrow{
+  right: 10px;
 }
