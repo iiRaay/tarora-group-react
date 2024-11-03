@@ -5,10 +5,12 @@ import { Features } from "./components/features";
 import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
-import BeforeAfter from "./components/BeforeAfter";
+import { BeforeAfter } from "./components/BeforeAfter";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import { Special } from "./components/special";
+import Reviews from "./components/reviews";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -26,6 +28,8 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <Reviews></Reviews>
+      <Special data={landingPageData.Special} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />

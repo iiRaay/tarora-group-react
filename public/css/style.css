@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #6372ff 0%, #afb8c1 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -681,7 +681,7 @@ label {
   background-color: transparent;
   border: none;
   font-size: clamp(3rem, 5vw, 5rem);
-  color: #ccae4c;
+  color: #e1b151;
   
 }
 .left-arrow{
@@ -689,4 +689,92 @@ label {
 }
 .right-arrow{
   right: 10px;
+}
+
+#special{
+  background-color: #faf0e6;
+  padding-bottom: inherit;
+}
+
+#special_deal{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px
+}
+
+#special_title{
+  text-transform: uppercase;
+  font-weight: 700;
+  
+}
+
+
+.special_item{
+  background-color: white;
+  border-radius: 10px;
+  width: clamp(175px,175px,25%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #D8B04A;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width:768px){
+  #special_deal{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .special_item{
+    margin-bottom: 10px;
+    width: 50%;
+    width: clamp(175px,50%,350px);
+  }
+}
+#special_treatment{
+  font-weight: bold;
+}
+
+#special_price{
+   font-size: 70px;
+   color: #D8B04A;
+}
+
+#special_caption{
+  
+}
+
+
+#review_container{
+
+}
+
+#reivew-column-1{
+
+}
+
+
+#rating_title{
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black
+}
+
+#rating_star{
+  font-size: 3rem; 
+  margin-bottom: 0;
+  margin-top: -20px;
+  color:#FFC000; 
+}
+
+#google_logo{
+  max-width: 120px;
+  height: auto;
+  
 }

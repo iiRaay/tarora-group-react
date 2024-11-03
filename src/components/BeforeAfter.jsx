@@ -66,7 +66,7 @@ const CustomRightArrow = ({ onClick }) => {
 const carouselItem = baitemData.map((item) => (
   <BAitem name={item.name} imgPath={item.imagepath} />
 ));
-const BeforeAfter = () => {
+export const BeforeAfter = () => {
   return (
     <div className="text-center" id="BAContainer">
       <div className="section-title">
@@ -86,5 +86,3 @@ const BeforeAfter = () => {
     </div>
   );
 };
-
-export default BeforeAfter;

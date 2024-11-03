@@ -282,5 +282,17 @@
       "url": "forma-rf-skin-tightening-facial"
     }
   ],
+  "Special": [
+    {
+      "treatment": "Laser Hair Removal",
+      "price": "$999",
+      "caption": "First time customers only"
+    },
+    {
+      "treatment": "Microneedling",
+      "price": "$99",
+      "caption": "First time customers only"
+    }
+  ],
   "": {}
 }
