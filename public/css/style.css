@@ -663,7 +663,13 @@ label {
   max-width: 50%;
 }
 #BAContainer{
-  position: relative;
+
+  position:relative;
+}
+
+#BACarousel{
+  margin-top: 0;
+
 }
 #BAtitle{
   margin-top: 5%;
@@ -676,19 +682,37 @@ label {
 
 .left-arrow,.right-arrow{
   position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
   background-color: transparent;
   border: none;
   font-size: clamp(3rem, 5vw, 5rem);
   color: #e1b151;
-  
 }
-.left-arrow{
-  left: 10px;
+/*
+before and after carousel arrow positioning
+*/
+#left-arrow1{
+  top: 45%;
+  transform: translateY(-50%);
+  left: 0px;
 }
-.right-arrow{
-  right: 10px;
+#right-arrow1{
+  right: 0px;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+/*
+review carousel arrow positioning
+*/
+#left-arrow2{
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0px;
+}
+#right-arrow2{
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #special{
@@ -751,30 +775,80 @@ label {
 
 
 #review_container{
+margin-top: 40px;
+margin-bottom: 40px;
 
 }
 
 #reivew-column-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  
+}
+
+#review-column-2{
 
 }
 
-
 #rating_title{
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   text-transform: uppercase;
   color: black
 }
 
 #rating_star{
-  font-size: 3rem; 
+  font-size: 4rem; 
   margin-bottom: 0;
   margin-top: -20px;
   color:#FFC000; 
+}
+#review_subtitle{
+  color: black;
 }
 
 #google_logo{
   max-width: 120px;
   height: auto;
-  
+}
+
+.reviewUnit{
+ width:clamp(250px,50%,400px);
+ border:#afb8c1;
+ border-style: solid;
+ border-radius: 10px;
+ border-width: 2px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.reviewHead{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.reviewContent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.reviewerIcon{
+  border-radius: 50%;
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.reviewerName{
+  color: black;
+}
+
+.reviewStar{
+  color:#FFC000;
+  font-size: 2em;
 }

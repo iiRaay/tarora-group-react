@@ -46,6 +46,7 @@ const CustomLeftArrow = ({ onClick }) => {
     <button
       className="left-arrow"
       onClick={onClick}
+      id="left-arrow1"
       aria-label="Previous Slide"
     >
       &#11164; {/*Black leftwards Equilateral Arrowhead html code*/}
@@ -56,7 +57,12 @@ const CustomLeftArrow = ({ onClick }) => {
 // Custom Right Arrow Component
 const CustomRightArrow = ({ onClick }) => {
   return (
-    <button className="right-arrow" onClick={onClick} aria-label="Next Slide">
+    <button
+      className="right-arrow"
+      onClick={onClick}
+      id="right-arrow1"
+      aria-label="Next Slide"
+    >
       &#11166; {/*Black Rightwards Equilateral Arrowhead html code*/}
     </button>
   );
@@ -72,10 +78,10 @@ export const BeforeAfter = () => {
       <div className="section-title">
         <h3 id="BAtitle">Before & After</h3>
       </div>
-      <div className="container">
+      <div className="container" id="BACarousel">
         <Carousel
           responsive={responsive}
-          showDots={true}
+          showDots={false}
           infinite={true}
           customLeftArrow={<CustomLeftArrow />}
           customRightArrow={<CustomRightArrow />}
