@@ -165,12 +165,6 @@
       "bio": "As a Clinical Receptionist at Tarora Rejuvenation, Izma brings a friendly and professional demeanor to every client interaction. While expertly managing appointments and ensuring smooth daily operations, Izma is also pursuing her studies to become a Medical Esthetician. Her growing knowledge of skincare and aesthetic treatments enhances her ability to assist clients, offering informed answers to their questions and guiding them towards the best solutions for their needs."
     },
     {
-      "img": "img/team/gilmore.png",
-      "name": "Gilmore",
-      "job": "Massage Therapist",
-      "bio": "As a highly skilled Massage Therapist at Tarora, Gilmour brings over 5 years of experience in the wellness industry and is proficient in a wide range of massage techniques. He provides exceptional guidance and customized massage solutions, ensuring that you are well-informed and receive the best possible treatment to achieve ultimate relaxation and well-being."
-    },
-    {
       "img": "img/team/default-profile.jpg",
       "name": "Muskan",
       "job": "Clinical Receptionist",
@@ -280,6 +274,41 @@
       "title": "Forma RF Skin Tightening Facial",
       "text": "",
       "url": "forma-rf-skin-tightening-facial"
+    }
+  ],
+  "Special": [
+    {
+      "treatment": "Laser Hair Removal",
+      "price": "$999",
+      "caption": "First time customers only"
+    },
+    {
+      "treatment": "Microneedling",
+      "price": "$99",
+      "caption": "First time customers only"
+    }
+  ],  
+  "Review": [
+    {
+      "Icon": "img/reviews/stockIcon.png",
+      "Name": "Wolf Lamb",
+      "Date":"11-11-2024",
+      "Star": "★★★★★",
+      "Content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "Icon": "img/reviews/stockIcon.png",
+      "Name": "Wolf Lamb",
+      "Date":"11-11-2024",
+      "Star": "★★★★★",
+      "Content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "Icon": "img/reviews/stockIcon.png",
+      "Name": "Wolf Lamb",
+      "Date":"11-11-2024",
+      "Star": "★★★★★",
+      "Content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     }
   ],
   "": {}
