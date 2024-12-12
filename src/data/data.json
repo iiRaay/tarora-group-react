@@ -165,10 +165,16 @@
       "bio": "As a Clinical Receptionist at Tarora Rejuvenation, Izma brings a friendly and professional demeanor to every client interaction. While expertly managing appointments and ensuring smooth daily operations, Izma is also pursuing her studies to become a Medical Esthetician. Her growing knowledge of skincare and aesthetic treatments enhances her ability to assist clients, offering informed answers to their questions and guiding them towards the best solutions for their needs."
     },
     {
-      "img": "img/team/default-profile.jpg",
+      "img": "img/team/muskan.jpeg",
       "name": "Muskan",
       "job": "Clinical Receptionist",
       "bio": "As the Clinical Receptionist at Tarora Rejuvenation, Muskan is the welcoming face that greets every client with a warm smile and ensures a seamless experience from start to finish. With a passion for customer service and a deep understanding of the clinic's wide range of aesthetic treatments, Muskan provides exceptional support by managing appointments, answering inquiries, and guiding clients through their journey to looking and feeling their best."
+    },
+    {
+      "img": "img/team/Isabelle.jpg",
+      "name": "Isabelle",
+      "job": "Medical Aesthetician",
+      "bio": "Isabelle brings a unique understanding of skin challenges, and a deep commitment to helping clients achieve their skin goals through personalized treatments and education. Isabelle ensures a welcoming atmosphere while expertly managing appointments, patient records, and day-to-day clinic operations. With a focus on both effective treatments and building lasting client relationships, Isabelle is here to provide both effective skincare solutions and a seamless, positive experience from start to finish."
     }
   ],
   "Contact": {

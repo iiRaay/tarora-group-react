@@ -4,7 +4,7 @@ export const Special = (props) => {
     <div id="special" className="text-center">
       <div className="container" id="special_container">
         <div className="section-title">
-          <h1 id="special_title">Special Deals</h1>
+          <h2 id="special_title">Special Deals</h2>
         </div>
         <div className="row" id="special_deal">
           {props.data

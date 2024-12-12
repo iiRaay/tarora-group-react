@@ -76,7 +76,7 @@ export const BeforeAfter = () => {
   return (
     <div className="text-center" id="BAContainer">
       <div className="section-title">
-        <h3 id="BAtitle">Before & After</h3>
+        <h2 id="BAtitle">Before & After</h2>
       </div>
       <div className="container" id="BACarousel">
         <Carousel
