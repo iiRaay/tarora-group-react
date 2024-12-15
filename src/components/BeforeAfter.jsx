@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import BAitem from "./BAitem.jsx";
+
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 768 },
@@ -16,7 +16,7 @@ const responsive = {
     items: 1,
   },
 };
-
+/*
 const baitemData = [
   {
     id: 1,
@@ -39,7 +39,7 @@ const baitemData = [
     name: "treatment4",
   },
 ];
-
+*/
 // Custom Left Arrow Component
 const CustomLeftArrow = ({ onClick }) => {
   return (
@@ -69,10 +69,12 @@ const CustomRightArrow = ({ onClick }) => {
 };
 
 /*Map carousel item img(imagepath)and caption(name) from baitemData array to pass into carousel */
+/*
 const carouselItem = baitemData.map((item) => (
   <BAitem name={item.name} imgPath={item.imagepath} />
 ));
-export const BeforeAfter = () => {
+*/
+export const BeforeAfter = (props) => {
   return (
     <div className="text-center" id="BAContainer">
       <div className="section-title">
@@ -86,7 +88,19 @@ export const BeforeAfter = () => {
           customLeftArrow={<CustomLeftArrow />}
           customRightArrow={<CustomRightArrow />}
         >
-          {carouselItem}
+          {props.data
+            ? props.data.map((d, i) => {
+                return (
+                  <div key={`${d.id}-${i}`} className="carousel-slide">
+                    <div className="carousel-image">
+                      <img src={d.baImg} alt="stock" />
+                      <img src={d.baImg} alt="stock" />
+                    </div>
+                    <h3 id="carousel-caption">{d.baName}</h3>
+                  </div>
+                );
+              })
+            : "Loading..."}
         </Carousel>
       </div>
     </div>
