@@ -317,5 +317,72 @@
       "Content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     }
   ],
+  "BeforeAfter": [
+    {
+      "id": 0,
+      "baName": "Acne Solution",
+      "baImg": "img/before_after/acneFacialSolutions.jpg"
+    },
+    {
+      "id": 1,
+      "baName": "Botox",
+      "baImg": "img/before_after/botox.jpg"
+    },
+    {
+      "id": 2,
+      "baName": "Chemical Peel",
+      "baImg": "img/before_after/chemicalPeel.jpg"
+    },
+    {
+      "id": 3,
+      "baName": "Derma Filler",
+      "baImg": "img/before_after/dermafillers.jpg"
+    },
+    {
+      "id": 4,
+      "baName": "Dermaplaning",
+      "baImg": "img/before_after/dermplaning.jpg"
+    },
+    {
+      "id": 5,
+      "baName": "Eyebrow Laminating",
+      "baImg": "img/before_after/eyebrowLamination.jpg"
+    },
+    {
+      "id": 6,
+      "baName": "Eyebrow Tinting",
+      "baImg": "img/before_after/eyebrowTinting.jpg"
+    },
+    {
+      "id": 7,
+      "baName": "RF Skin Tightening",
+      "baImg": "img/before_after/formaRFSkinTightening.jpg"
+    },
+    {
+      "id": 8,
+      "baName": "Hydrafacial",
+      "baImg": "img/before_after/hydrafacial.jpg"
+    },
+    {
+      "id": 9,
+      "baName": "Laser Hair Removal",
+      "baImg": "img/before_after/laserhairremoval.jpg"
+    },
+    {
+      "id": 10,
+      "baName": "Lumeccal IPL Facial",
+      "baImg": "img/before_after/lumeccaIPLFacial.jpeg"
+    },
+    {
+      "id": 11,
+      "baName": "Microneedling",
+      "baImg": "img/before_after/microneedling.jpeg"
+    },
+    {
+      "id": 12,
+      "baName": "Morpheus 8",
+      "baImg": "img/before_after/morpheus8.jpg"
+    }
+  ],
   "": {}
 }
