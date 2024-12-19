@@ -94,9 +94,8 @@ export const BeforeAfter = (props) => {
                   <div key={`${d.id}-${i}`} className="carousel-slide">
                     <div className="carousel-image">
                       <img src={d.baImg} alt="stock" />
-                      <img src={d.baImg} alt="stock" />
+                      <h3 id="carousel-caption">{d.baName}</h3>
                     </div>
-                    <h3 id="carousel-caption">{d.baName}</h3>
                   </div>
                 );
               })
