@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Treatments from "./pages/Treatments";
+import App from './App';
+
+const router = createBrowserRouter([
+
+    {path:"/", element: <App/>},
+    {path:"/treatments", element: <Treatments/>}
+]);
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+    <RouterProvider router={router}/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

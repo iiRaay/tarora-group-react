@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from "react-router-dom";
+import Dropdown from "./Dropdown/dropdown"
 
 export const Navigation = (props) => {
   return (
@@ -27,10 +29,14 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
+
             <li>
-              <a href="#features" className="page-scroll">
+              {/* <a href="#features" className="page-scroll">
                 Treatments
-              </a>
+              </a> */}
+              {/* <Link to="/treatments">Treatments</Link> */}
+             <a>Dropdown</a>
+             <Dropdown/>
             </li>
             <li>
               <a href="#about" className="page-scroll">
