@@ -22,6 +22,8 @@
 .dropdown .options.visible{
     opacity: 1;
     visibility: visible;
+    background-color: white;
+    padding: 1rem;;
 }
 
 .dropdown .toggle,
@@ -37,4 +39,8 @@
 
 .dropdown .toggle:hover, .options button:hover {
     background-color: #ccc;
+}
+
+.submenu{
+    display: block;
 }
