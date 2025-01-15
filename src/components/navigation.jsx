@@ -34,7 +34,7 @@ export const Navigation = (props) => {
                 Treatments
               </a> */}
               {/* <Link to="/treatments">Treatments</Link> */}
-              <a>Dropdown</a>
+
               <Dropdown />
             </li>
             <li>

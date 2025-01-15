@@ -65,61 +65,6 @@ const Dropdown = () => {
     },
   ];
 
-  // const toggleSubMenu = (e) => {
-  //   console.log(e);
-  //   let submenu = e.target.querySelector("li");
-  //   console.log(submenu);
-  //   if (!submenu) return;
-  //   if (submenu.style.display === "none") {
-  //     submenu.style.display = "block";
-  //   } else {
-  //     submenu.style.display = "none";
-  //   }
-  // };
-
-  function handleOnClick(item) {
-    item.isOpen = !item.isOpen;
-    // let submenu = e.target;
-
-    // if (!submenu) return;
-
-    // submenu.style.display = "none";
-    // console.log(submenu.style.display);
-    /*
-    if (submenu.style.display === "none") {
-    } else {
-      submenu.style.display = "none";
-    }
-    */
-  }
-  const RenderSubMenu = (option) => {
-    console.log(option.isOpen);
-    return (
-      <>
-        {option.isOpen ? (
-          <ul className="submenu">
-            {option.submenu.map((subOption, index) => {
-              return (
-                <li
-                  // use this if u want, not needed really.
-                  className={`${
-                    selectedOption.id === subOption.id ? "selected" : ""
-                  }`}
-                  onClick={(e) => {
-                    setSelectedOption(subOption);
-                    //toggleSubMenu(e);
-                  }}
-                >
-                  {subOption.label}
-                </li>
-              );
-            })}
-          </ul>
-        ) : null}
-      </>
-    );
-  };
-
   return (
     <div className="dropdown" ref={ref}>
       <button
@@ -134,22 +79,19 @@ const Dropdown = () => {
         <div className={`options ${isSelected ? "visible" : ""}`}>
           {options.map((option, index) => {
             return (
-              <div>
+              <div className="dropdown-content">
                 <li
                   key={option}
                   id={index}
                   // use this if u want, not needed really.
-                  className={`${
-                    selectedOption.id === option.id ? "selected" : ""
-                  }`}
+                  className={"drop-selected"}
                   onClick={() => {
                     setSelectedId(index);
                   }}
                 >
                   {option.label}
                 </li>
-
-                {selectedId == index ? (
+                {selectedId === index ? (
                   <>
                     <ul className="submenu">
                       {option.submenu.map((subOption, index) => {
@@ -158,14 +100,16 @@ const Dropdown = () => {
                             // use this if u want, not needed really.
                             className={`${
                               selectedOption.id === subOption.id
-                                ? "selected"
+                                ? "sub-selected"
                                 : ""
                             }`}
                             onClick={(e) => {
                               setSelectedOption(subOption);
                             }}
                           >
-                            {subOption.label}
+                            <div className="submenu-content">
+                              {subOption.label}
+                            </div>
                           </li>
                         );
                       })}

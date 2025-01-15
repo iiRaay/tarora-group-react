@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const Treatments = () => {
-  return (
-    <div>
-        Treatments
-        </div>
-  )
-}
+  return <div>Treatments</div>;
+};
 
-export default Treatments
+export default Treatments;
+/*
+`${
+                    selectedOption.id === option.id ? "drop-selected" : ""
+                  }`
+*/
