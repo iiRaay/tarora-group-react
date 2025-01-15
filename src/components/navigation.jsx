@@ -35,7 +35,9 @@ export const Navigation = (props) => {
               </a> */}
               {/* <Link to="/treatments">Treatments</Link> */}
 
-              <Dropdown />
+              <a>
+                <Dropdown />
+              </a>
             </li>
             <li>
               <a href="#about" className="page-scroll">

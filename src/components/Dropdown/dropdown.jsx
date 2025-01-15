@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./dropdown.css";
-
+import { Link } from "react-router-dom";
 const Dropdown = () => {
   const [isSelected, setIsSelected] = useState(false);
   const [selectedOption, setSelectedOption] = useState({ id: null });
@@ -108,7 +108,7 @@ const Dropdown = () => {
                             }}
                           >
                             <div className="submenu-content">
-                              {subOption.label}
+                              {<Link to="/treatments">{subOption.label}</Link>}
                             </div>
                           </li>
                         );
