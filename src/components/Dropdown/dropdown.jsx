@@ -67,14 +67,14 @@ const Dropdown = () => {
 
   return (
     <div className="dropdown" ref={ref}>
-      <button
+      <li
         className="toggle"
         onClick={() => {
           setIsSelected(!isSelected);
         }}
       >
         Treatments
-      </button>
+      </li>
       {isSelected ? (
         <div className={`options ${isSelected ? "visible" : ""}`}>
           {options.map((option, index) => {

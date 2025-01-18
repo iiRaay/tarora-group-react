@@ -10,9 +10,9 @@
 }
 
 .dropdown .options{
-    position: absolute;
+    position: relative;
     top: 100%;
-    width: 100%;
+    width: clamp(100px,135px,250px);
     display: flex;
     flex-direction: column; 
     opacity: 0;
@@ -24,7 +24,9 @@
     visibility: visible;
     background-color: white;
     padding: 1rem; 
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
+    border: solid 1px #ccc;
+    
 }
 
 .dropdown .toggle,
@@ -32,11 +34,16 @@
     display: flex;
     justify-content: space-between;
     text-align: start;
-    padding: 5px 10px;
-    border: 1px solid;
+    padding: 0px 10px;
     transition: 0.05s ease;
     cursor: pointer;
-    
+
+}
+
+
+.dropdown .options {
+    margin-top: 10px;
+
 }
 
 .dropdown .toggle:hover, .options button:hover li:hover {
@@ -58,7 +65,7 @@
     border-radius: 5px;
     border: 1px solid;
     margin-left: 125px;
-    width: inherit;
+    width: 150px;
     text-align: center;
 }
 .submenu-content {
