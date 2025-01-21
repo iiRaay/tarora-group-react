@@ -1,0 +1,59 @@
+
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    
+    border: 10px solid black;
+}
+.page-title{
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.page-text{
+    width: 50%;
+    border: 1px solid;
+    padding: 10px;
+}
+.page-text p {
+    font-size: large;
+}
+.page-other{
+    width: 50%;
+    border: 1px solid;
+    text-align: center;
+}
+.page-other img{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+}
+
+.part-a li {
+    list-style-type: none;
+    list-style-position: inside;
+    color: #404040;
+    font-size: 1.25em;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+
+  .inner-a li{
+    list-style: circle;
+    list-style-position: inside;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #404040;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  
