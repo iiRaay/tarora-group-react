@@ -1,14 +1,15 @@
 import React from "react";
 import { Navigation } from "../components/navigation";
-
+import { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./pages.css";
 
 const Treatments = () => {
   return (
     <div className="page-container">
       <Navigation></Navigation>
-      <h2 className="page-title">Treatments</h2>
-      <div className="container">
+      <h2 className="page-title">Microneedling</h2>
+      <div className="inner-container">
         <div className="page-text">
           <p>
             Microneedling, also known as collagen induction therapy, is a
@@ -128,7 +129,21 @@ const Treatments = () => {
             src="./img/before_after/acneFacialSolutions.jpg"
             alt="Acne Image"
           />
-          <div className="dropdown">dropdown</div>
+          <div className="prices">
+            <h3>prices</h3>
+            <ul>
+              <li>
+                <a href="https://tarorarejuvenation.janeapp.com/#/discipline/1/treatment/1">
+                  Face
+                </a>
+              </li>
+              <li>
+                <a href="https://tarorarejuvenation.janeapp.com/#/discipline/1/treatment/29">
+                  Face & Neck
+                </a>
+              </li>
+            </ul>
+          </div>
           <p className="disclaimer">
             *Information is based on service from our trained professionals.
             Results may vary & a consultation is highly recommended for optimal

@@ -37,7 +37,7 @@
     padding: 0px 10px;
     transition: 0.05s ease;
     cursor: pointer;
-
+    
 }
 
 
@@ -67,11 +67,20 @@
     margin-left: 125px;
     width: 150px;
     text-align: center;
+    
 }
 .submenu-content {
-    
+    color: black;
     border-bottom: 1px solid #f2a2538a;
     padding-bottom: 0.5rem;
+}
+
+.submenu-content a{
+    color: #555;
+}
+.submenu-content a:hover{
+    color: #608dfd;
+   
 }
 
 @media (max-width:768px){
