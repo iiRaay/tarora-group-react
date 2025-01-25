@@ -4,13 +4,23 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Treatments from "./pages/Treatments";
+import Microneedling from "./pages/Microneedling";
+import Dermaplaning from './pages/Dermaplaning';
+import Hydrafacial from './pages/HydraFacial';
+import Microdermabrasion from './pages/Microdermabrasion ';
+import BBGlow from './pages/BBGlow';
+import Morpheus8 from './pages/Morpheus8';
 import App from './App';
 
 const router = createBrowserRouter([
 
     {path:"/", element: <App/>},
-    {path:"/treatments", element: <Treatments/>}
+    {path:"/microneedling", element: <Microneedling/>},
+    {path:"/dermaplaning", element: <Dermaplaning/>},
+    {path:"/hydrafacial", element: <Hydrafacial/>},
+    {path:"/microdermabrasion", element: <Microdermabrasion/>},
+    {path:"/bbglow", element: <BBGlow/>},
+    {path:"/morpheus8RF", element: <Morpheus8/>}
 ]);
 
 

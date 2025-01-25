@@ -30,11 +30,11 @@ const Dropdown = () => {
       id: 1,
       label: "Skin Care & Rejuvenation",
       submenu: [
-        { label: "Microneedling" },
-        { label: "Dermaplaning" },
-        { label: "Hydrafacial" },
-        { label: "Acne Solutions Facial" },
-        { label: "Chemical Peel" },
+        { label: "Microneedling", link: "/microneedling" },
+        { label: "Dermaplaning", link: "/dermaplaning" },
+        { label: "Hydrafacial", link: "/hydrafacial" },
+        { label: "Microdermabrasion", link: "/microdermabrasion" },
+        { label: "BB Glow", link: "/bbglow" },
         { label: "Tarora Restore & Rejuvenate" },
         { label: "Eyebrow Tinting" },
         { label: "Eyebrow Lamination" },
@@ -58,7 +58,7 @@ const Dropdown = () => {
       id: 4,
       label: "Advance Skincare & Rejuvenation",
       submenu: [
-        { label: "Morpheus 8" },
+        { label: "Morpheus 8", link: "/morpheus8RF" },
         { label: "Lumecca IPL Facial" },
         { label: "Forma RF Skin Tightening Facial" },
       ],
@@ -108,7 +108,11 @@ const Dropdown = () => {
                             }}
                           >
                             <div className="submenu-content">
-                              {<Link to="/treatments">{subOption.label}</Link>}
+                              {
+                                <Link to={subOption.link}>
+                                  {subOption.label}
+                                </Link>
+                              }
                             </div>
                           </li>
                         );

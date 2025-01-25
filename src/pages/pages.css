@@ -3,12 +3,14 @@
 .page-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: fit-content;
+    width: 90%;
+    margin-inline: auto;
+    border-left: 2px solid #f2a2538a;
+    border-right: 2px solid #f2a2538a;
 }
+
+
 .page-title{
     position: relative;
     margin-top: 100px;
@@ -16,27 +18,35 @@
 }
 
 .page-text{
-    width: 50%;
+    width: 80%;
     padding: 10px;
 }
 .page-text p {
     font-size: large;
 }
 .page-other{
-    width: 50%;
+    width: 80%;
     text-align: center;
+    padding: 10px;
 }
 .page-other img{
-    width: 100%;
+    width: clamp(200px, 80%, 80%);
     height: auto;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .inner-container{
     display:flex;
     flex-direction: row;
 }
-
+@media (max-width: 768px) {
+ .inner-container{
+    flex-direction: column;
+    align-items: center;
+ }   
+}
 .part-a li {
     list-style-type: none;
     list-style-position: inside;
@@ -85,10 +95,15 @@
   .prices a{
     text-align: right;
     text-transform: uppercase;
-    font-size: large;
+    font-size: 15px;
     color: #404040;
   }
 
   .prices a:hover{
     color: #608dfd;
+  }
+
+  .disclaimer{
+    padding-left: 2em;
+    padding-right: 2em;
   }

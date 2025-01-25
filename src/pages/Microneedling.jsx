@@ -1,10 +1,9 @@
 import React from "react";
 import { Navigation } from "../components/navigation";
-import { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+
 import "./pages.css";
 
-const Treatments = () => {
+const Microneedling = () => {
   return (
     <div className="page-container">
       <Navigation></Navigation>
@@ -19,7 +18,7 @@ const Treatments = () => {
             leading to skin rejuvenation. Here's how it works and why it's
             beneficial:
           </p>
-          <h3>How Microneedling Works:</h3>
+          <h3>How Microneedling Works</h3>
           <ol className="part-a">
             <li>
               Improves Skin Texture and Tone:
@@ -77,7 +76,7 @@ const Treatments = () => {
               </ul>
             </li>
           </ol>
-          <h3>Why Microneedling is Good:</h3>
+          <h3>Why Microneedling is Good</h3>
           <ol className="part-a">
             <li>
               Natural Healing:
@@ -108,7 +107,7 @@ const Treatments = () => {
               </ul>
             </li>
           </ol>
-          <h3>Considerations:</h3>
+          <h3>Considerations</h3>
           <ol className="part-a">
             <li>
               <ul className="inner-a">
@@ -126,8 +125,8 @@ const Treatments = () => {
         </div>
         <div className="page-other">
           <img
-            src="./img/before_after/acneFacialSolutions.jpg"
-            alt="Acne Image"
+            src="./img/before_after/microneedling.jpeg"
+            alt="Microneedling Before and After"
           />
           <div className="prices">
             <h3>prices</h3>
@@ -156,4 +155,4 @@ const Treatments = () => {
   );
 };
 
-export default Treatments;
+export default Microneedling;
