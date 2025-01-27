@@ -59,8 +59,8 @@ const Dropdown = () => {
       label: "Advance Skincare & Rejuvenation",
       submenu: [
         { label: "Morpheus 8", link: "/morpheus8RF" },
-        { label: "Lumecca IPL Facial" },
-        { label: "Forma RF Skin Tightening Facial" },
+        { label: "Lumecca IPL Facial", link: "/lumeccaIPL" },
+        { label: "Forma RF Skin Tightening Facial", link: "/formaRF" },
       ],
     },
   ];

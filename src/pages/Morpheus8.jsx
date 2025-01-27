@@ -48,7 +48,7 @@ const Morpheus8 = () => {
               </ul>
             </li>
             <li>
-              Fractional Technology::
+              Fractional Technology:
               <ul className="inner-a">
                 <li>
                   Targets both the epidermis (outer layer) and dermis (deeper
@@ -224,18 +224,32 @@ const Morpheus8 = () => {
         </div>
         {/*--- Right half of page ---*/}
         <div className="page-other">
-          {/*
           <img
-            src="./img/before_after/dermplaning.jpg"
-            alt="Microneedling Before and After"
+            src="./img/before_after/morpheus8.jpg"
+            alt="Morpheus8 Before and After"
           />
-          */}
+
           <div className="prices">
-            <h3>Call to Book</h3>
+            <h3>Prices</h3>
             <ul>
               <li>
-                <a href="https://www.google.com/search?q=tarora+rejuvenation">
-                  (403) 910-1741
+                <a href="https://tarorarejuvenation.janeapp.com/#/discipline/1/treatment/38">
+                  Face
+                </a>
+              </li>
+              <li>
+                <a href="https://tarorarejuvenation.janeapp.com/#/discipline/1/treatment/168">
+                  Neck
+                </a>
+              </li>
+              <li>
+                <a href="https://tarorarejuvenation.janeapp.com/#/discipline/1/treatment/39">
+                  Face & Neck
+                </a>
+              </li>
+              <li>
+                <a href="https://tarorarejuvenation.janeapp.com/#/discipline/1/treatment/40">
+                  Face, Neck & Decollette
                 </a>
               </li>
             </ul>

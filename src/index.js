@@ -10,6 +10,8 @@ import Hydrafacial from './pages/HydraFacial';
 import Microdermabrasion from './pages/Microdermabrasion ';
 import BBGlow from './pages/BBGlow';
 import Morpheus8 from './pages/Morpheus8';
+import FormaRF from './pages/FormaRF';
+import LumeccaIPL from './pages/LumeccaIPL';
 import App from './App';
 
 const router = createBrowserRouter([
@@ -20,7 +22,9 @@ const router = createBrowserRouter([
     {path:"/hydrafacial", element: <Hydrafacial/>},
     {path:"/microdermabrasion", element: <Microdermabrasion/>},
     {path:"/bbglow", element: <BBGlow/>},
-    {path:"/morpheus8RF", element: <Morpheus8/>}
+    {path:"/morpheus8RF", element: <Morpheus8/>},
+    {path:"/formaRF", element: <FormaRF/>},
+    {path:"/lumeccaIPL", element: <LumeccaIPL/>}
 ]);
 
 
