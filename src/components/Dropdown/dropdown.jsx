@@ -36,22 +36,24 @@ const Dropdown = () => {
         { label: "Microdermabrasion", link: "/microdermabrasion" },
         { label: "BB Glow", link: "/bbglow" },
         { label: "Tarora Restore & Rejuvenate" },
-        { label: "Eyebrow Tinting" },
-        { label: "Eyebrow Lamination" },
+        { label: "Threading", link: "/threading" },
+        { label: "Lamination", link: "/lamination" },
       ],
     },
     {
       id: 2,
       label: "Injectable",
-      submenu: [{ label: "Botox" }, { label: "Dermal Fillers" }],
+      submenu: [
+        { label: "Botox" },
+        { label: "Dermal Fillers", link: "/dermal-fillers" },
+      ],
     },
     {
       id: 3,
       label: "Laser & Hair Removal",
       submenu: [
-        { label: "Threading" },
-        { label: "Laser Hair Removal" },
-        { label: "Waxing" },
+        { label: "Laser Hair Removal", link: "/laser-hair-removal" },
+        { label: "Waxing", link: "/waxing" },
       ],
     },
     {

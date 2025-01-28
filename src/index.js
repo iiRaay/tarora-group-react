@@ -12,6 +12,11 @@ import BBGlow from './pages/BBGlow';
 import Morpheus8 from './pages/Morpheus8';
 import FormaRF from './pages/FormaRF';
 import LumeccaIPL from './pages/LumeccaIPL';
+import Lamination from './pages/Lamination';
+import Threading from './pages/Threading';
+import LaserHairRemoval from './pages/LaserHairRemoval';
+import Waxing from './pages/Waxing'; 
+import Dermalfillers from './pages/Dermalfillers';
 import App from './App';
 
 const router = createBrowserRouter([
@@ -24,7 +29,12 @@ const router = createBrowserRouter([
     {path:"/bbglow", element: <BBGlow/>},
     {path:"/morpheus8RF", element: <Morpheus8/>},
     {path:"/formaRF", element: <FormaRF/>},
-    {path:"/lumeccaIPL", element: <LumeccaIPL/>}
+    {path:"/lumeccaIPL", element: <LumeccaIPL/>},
+    {path:"/lamination", element: <Lamination/>},
+    {path:"/threading", element: <Threading/>},
+    {path:"/laser-hair-removal", element: <LaserHairRemoval/>},
+    {path:"/waxing", element: <Waxing/>},
+    {path:"/dermal-fillers", element: <Dermalfillers/>}
 ]);
 
 
