@@ -219,7 +219,7 @@ const LaserHairRemoval = () => {
         <div className="page-other">
           <img
             src="./img/before_after/laserhairremoval.jpg"
-            alt="Microneedling Before and After"
+            alt="Laser Hair Removal Before and After"
           />
           <div className="prices">
             <h3>Prices</h3>

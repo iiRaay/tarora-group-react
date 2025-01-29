@@ -17,6 +17,10 @@ import Threading from './pages/Threading';
 import LaserHairRemoval from './pages/LaserHairRemoval';
 import Waxing from './pages/Waxing'; 
 import Dermalfillers from './pages/Dermalfillers';
+import Botox from './pages/Botox';
+import Dysport from './pages/Dysport';
+import Xeomin from './pages/Xeomin';
+import Massage from './pages/Massage';
 import App from './App';
 
 const router = createBrowserRouter([
@@ -34,7 +38,11 @@ const router = createBrowserRouter([
     {path:"/threading", element: <Threading/>},
     {path:"/laser-hair-removal", element: <LaserHairRemoval/>},
     {path:"/waxing", element: <Waxing/>},
-    {path:"/dermal-fillers", element: <Dermalfillers/>}
+    {path:"/dermal-fillers", element: <Dermalfillers/>},
+    {path:"/botox", element: <Botox/>},
+    {path:"/dysport", element: <Dysport/>},
+    {path:"/xeomin", element: <Xeomin/>},
+    {path:"/massage", element: <Massage/>}
 ]);
 
 

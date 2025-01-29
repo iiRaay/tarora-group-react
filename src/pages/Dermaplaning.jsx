@@ -184,7 +184,7 @@ const Dermaplaning = () => {
         <div className="page-other">
           <img
             src="./img/before_after/dermplaning.jpg"
-            alt="Microneedling Before and After"
+            alt="Dermaplaning Before and After"
           />
           <div className="prices">
             <h3>Call to Book</h3>

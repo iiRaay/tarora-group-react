@@ -223,7 +223,7 @@ const FormaRF = () => {
         <div className="page-other">
           <img
             src="./img/before_after/formaRFSkinTightening.jpg"
-            alt="Microneedling Before and After"
+            alt="Forma RF Before and After"
           />
 
           <div className="prices">

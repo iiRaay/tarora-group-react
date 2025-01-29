@@ -319,7 +319,11 @@ const Lamination = () => {
         <div className="page-other">
           <img
             src="./img/before_after/eyebrowLamination.jpg"
-            alt="Microneedling Before and After"
+            alt="Lamination Before and After"
+          />
+          <img
+            src="./img/before_after/eyebrowTinting.jpg"
+            alt="Eyebrow Tinting Before and After"
           />
           <div className="prices">
             <h3>Prices</h3>

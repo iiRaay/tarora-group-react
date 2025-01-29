@@ -30,22 +30,24 @@ const Dropdown = () => {
       id: 1,
       label: "Skin Care & Rejuvenation",
       submenu: [
-        { label: "Microneedling", link: "/microneedling" },
+        { label: "BB Glow", link: "/bbglow" },
         { label: "Dermaplaning", link: "/dermaplaning" },
         { label: "Hydrafacial", link: "/hydrafacial" },
-        { label: "Microdermabrasion", link: "/microdermabrasion" },
-        { label: "BB Glow", link: "/bbglow" },
-        { label: "Tarora Restore & Rejuvenate" },
-        { label: "Threading", link: "/threading" },
         { label: "Lamination", link: "/lamination" },
+        { label: "Massage", link: "/massage" },
+        { label: "Microdermabrasion", link: "/microdermabrasion" },
+        { label: "Microneedling", link: "/microneedling" },
+        { label: "Threading", link: "/threading" },
       ],
     },
     {
       id: 2,
       label: "Injectable",
       submenu: [
-        { label: "Botox" },
+        { label: "Botox", link: "/botox" },
         { label: "Dermal Fillers", link: "/dermal-fillers" },
+        { label: "Dysport", link: "/dysport" },
+        { label: "Xeomin", link: "/xeomin" },
       ],
     },
     {
@@ -60,9 +62,9 @@ const Dropdown = () => {
       id: 4,
       label: "Advance Skincare & Rejuvenation",
       submenu: [
-        { label: "Morpheus 8", link: "/morpheus8RF" },
-        { label: "Lumecca IPL Facial", link: "/lumeccaIPL" },
         { label: "Forma RF Skin Tightening Facial", link: "/formaRF" },
+        { label: "Lumecca IPL Facial", link: "/lumeccaIPL" },
+        { label: "Morpheus 8", link: "/morpheus8RF" },
       ],
     },
   ];

@@ -209,7 +209,7 @@ const BBGlow = () => {
           {/*
           <img
             src="./img/before_after/dermplaning.jpg"
-            alt="Microneedling Before and After"
+            alt="BB GLow Before and After"
           />
           */}
           <div className="prices">

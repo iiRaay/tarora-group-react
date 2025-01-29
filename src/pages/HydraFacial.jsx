@@ -221,7 +221,7 @@ const Hydrafacial = () => {
           />
           <img
             src="./img/before_after/hydrafacial.jpg"
-            alt="Microneedling Before and After"
+            alt="Hydra Facial Before and After"
           />
           <div className="prices">
             <h3>Prices</h3>

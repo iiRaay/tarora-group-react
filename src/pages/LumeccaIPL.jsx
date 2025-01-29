@@ -219,7 +219,7 @@ const LumeccaIPL = () => {
         <div className="page-other">
           <img
             src="./img/before_after/lumeccaIPLFacial.jpeg"
-            alt="Microneedling Before and After"
+            alt="Lumecca IPL Before and After"
           />
           <div className="prices">
             <h3>Prices</h3>

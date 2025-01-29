@@ -82,7 +82,7 @@ const Microdermabrasion = () => {
           {/*
             <img
             src="./img/before_after/microneedling.jpeg"
-            alt="Microneedling Before and After"
+            alt="Microdermabrasion Before and After"
           />
           */}
 
