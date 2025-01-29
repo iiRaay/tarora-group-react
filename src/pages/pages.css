@@ -1,0 +1,112 @@
+
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    width: 90%;
+    margin-inline: auto;
+    border-left: 2px solid #f2a2538a;
+    border-right: 2px solid #f2a2538a;
+}
+
+
+.page-title{
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.page-text{
+    width: 80%;
+    padding: 10px;
+}
+.page-text p {
+    font-size: large;
+}
+.page-other{
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+.page-other img{
+    width: clamp(200px, 80%, 80%);
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container{
+    display:flex;
+    flex-direction: row;
+}
+@media (max-width: 768px) {
+ .inner-container{
+    flex-direction: column;
+    align-items: center;
+ }   
+}
+.part-a li {
+    list-style-type: none;
+    list-style-position: inside;
+    color: #404040;
+    font-size: 1.25em;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+
+  .inner-a li{
+    list-style: circle;
+    list-style-position: inside;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #404040;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .prices{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+    
+  }
+
+  .prices h3{
+    text-transform: uppercase;
+    padding: 5px;
+    width: 200px;
+    background: #404040;
+    color: white;
+    border-radius: 2px;
+  }
+  .prices ul{
+    width: 200px;
+    border: 1px solid ;
+    border-radius: 5px;
+    margin-top: -5px;
+    padding: 10px;
+  }
+  .prices a{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #404040;
+
+  }
+
+  .prices a:hover{
+    color: #608dfd;
+  }
+  .prices li{
+    padding-bottom: 5px;
+  }
+  .disclaimer{
+    padding-left: 2em;
+    padding-right: 2em;
+  }

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Dropdown from "./Dropdown/dropdown";
 
 export const Navigation = (props) => {
   return (
@@ -17,7 +19,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a className="navbar-brand page-scroll" href="./#page-top">
             <img src="../../logo-bw-black.png" alt="Logo" />
           </a>{" "}
         </div>
@@ -28,12 +30,17 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
+              {/* <a href="#features" className="page-scroll">
                 Treatments
+              </a> */}
+              {/* <Link to="/treatments">Treatments</Link> */}
+
+              <a>
+                <Dropdown />
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="./#about" className="page-scroll">
                 About
               </a>
             </li>
@@ -45,7 +52,7 @@ export const Navigation = (props) => {
               */}
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
+              <a href="./#portfolio" className="page-scroll">
                 Gallery
               </a>
             </li>
@@ -55,12 +62,12 @@ export const Navigation = (props) => {
               </a>
             </li> */}
             <li>
-              <a href="#team" className="page-scroll">
+              <a href="./#team" className="page-scroll">
                 Team
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href="./#contact" className="page-scroll">
                 Contact
               </a>
             </li>

@@ -1,12 +1,56 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Microneedling from "./pages/Microneedling";
+import Dermaplaning from './pages/Dermaplaning';
+import Hydrafacial from './pages/HydraFacial';
+import Microdermabrasion from './pages/Microdermabrasion ';
+import BBGlow from './pages/BBGlow';
+import Morpheus8 from './pages/Morpheus8';
+import FormaRF from './pages/FormaRF';
+import LumeccaIPL from './pages/LumeccaIPL';
+import Lamination from './pages/Lamination';
+import Threading from './pages/Threading';
+import LaserHairRemoval from './pages/LaserHairRemoval';
+import Waxing from './pages/Waxing'; 
+import Dermalfillers from './pages/Dermalfillers';
+import Botox from './pages/Botox';
+import Dysport from './pages/Dysport';
+import Xeomin from './pages/Xeomin';
+import Massage from './pages/Massage';
+import App from './App';
+
+const router = createBrowserRouter([
+
+    {path:"/", element: <App/>},
+    {path:"/microneedling", element: <Microneedling/>},
+    {path:"/dermaplaning", element: <Dermaplaning/>},
+    {path:"/hydrafacial", element: <Hydrafacial/>},
+    {path:"/microdermabrasion", element: <Microdermabrasion/>},
+    {path:"/bbglow", element: <BBGlow/>},
+    {path:"/morpheus8RF", element: <Morpheus8/>},
+    {path:"/formaRF", element: <FormaRF/>},
+    {path:"/lumeccaIPL", element: <LumeccaIPL/>},
+    {path:"/lamination", element: <Lamination/>},
+    {path:"/threading", element: <Threading/>},
+    {path:"/laser-hair-removal", element: <LaserHairRemoval/>},
+    {path:"/waxing", element: <Waxing/>},
+    {path:"/dermal-fillers", element: <Dermalfillers/>},
+    {path:"/botox", element: <Botox/>},
+    {path:"/dysport", element: <Dysport/>},
+    {path:"/xeomin", element: <Xeomin/>},
+    {path:"/massage", element: <Massage/>}
+]);
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+    <RouterProvider router={router}/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

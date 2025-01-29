@@ -159,22 +159,22 @@
       "bio": "As a skilled Nurse Injector at Tarora Rejuvenation, Nadia brings over 3 years of experience in the aesthetics industry, specializing in Botox and fillers. She is proficient in a wide range of injection techniques and provides tailored recommendations to help you achieve your desired look. Nadia ensures you are fully informed and confident in making the best choices to enhance your natural beauty."
     },
     {
-      "img": "img/team/default-profile.jpg",
-      "name": "Izma",
-      "job": "Clinical Receptionist",
-      "bio": "As a Clinical Receptionist at Tarora Rejuvenation, Izma brings a friendly and professional demeanor to every client interaction. While expertly managing appointments and ensuring smooth daily operations, Izma is also pursuing her studies to become a Medical Esthetician. Her growing knowledge of skincare and aesthetic treatments enhances her ability to assist clients, offering informed answers to their questions and guiding them towards the best solutions for their needs."
-    },
-    {
       "img": "img/team/muskan.jpeg",
       "name": "Muskan",
       "job": "Clinical Receptionist",
       "bio": "As the Clinical Receptionist at Tarora Rejuvenation, Muskan is the welcoming face that greets every client with a warm smile and ensures a seamless experience from start to finish. With a passion for customer service and a deep understanding of the clinic's wide range of aesthetic treatments, Muskan provides exceptional support by managing appointments, answering inquiries, and guiding clients through their journey to looking and feeling their best."
     },
     {
-      "img": "img/team/Isabelle.jpg",
+      "img": "img/team/isabelle1.jpg",
       "name": "Isabelle",
       "job": "Medical Aesthetician",
       "bio": "Isabelle brings a unique understanding of skin challenges, and a deep commitment to helping clients achieve their skin goals through personalized treatments and education. Isabelle ensures a welcoming atmosphere while expertly managing appointments, patient records, and day-to-day clinic operations. With a focus on both effective treatments and building lasting client relationships, Isabelle is here to provide both effective skincare solutions and a seamless, positive experience from start to finish."
+    },
+      {
+      "img": "img/team/serkalem1.jpg",
+      "name": "Serkalem Yimer",
+      "job": "Massage Therapist",
+      "bio": "As a highly skilled Massage Therapist at Tarora, Serkalem brings over 3 years of experience in the wellness industry and is proficient in a wide range of massage techniques. She provides exceptional guidance and customized massage solutions, ensuring that you are well-informed and receive the best possible treatment to achieve ultimate relaxation and well-being."
     }
   ],
   "Contact": {
@@ -336,7 +336,7 @@
     {
       "id": 3,
       "baName": "Derma Filler",
-      "baImg": "img/before_after/dermafillers.jpg"
+      "baImg": "img/before_after/dermalfillers.jpg"
     },
     {
       "id": 4,
