@@ -275,6 +275,13 @@ header .intro-text {
 #features p {
   padding-bottom: 25px;
 }
+
+#features img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
 /* About Section */
 #about {
   padding: 100px 0;
