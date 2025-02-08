@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export const Features = (props) => {
   return (
     <div id="features" className="text-center">
@@ -12,7 +12,9 @@ export const Features = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
                   {" "}
-                  <i className={d.icon}></i>
+                  <Link to={d.url}>
+                    <img src={d.icon} alt="" />
+                  </Link>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
                 </div>

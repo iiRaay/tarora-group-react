@@ -186,100 +186,106 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Microneedling",
+      "icon": "img/treatment_icons/microneedling.png",
+      "title": "BB Glow",
       "text": "",
-      "url": "microneedling"
+      "url": "/bbglow"
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "img/treatment_icons/dermaplaning.png",
       "title": "Dermaplaning",
       "text": "",
-      "url": "dermaplaning"
+      "url": "/dermaplaning"
     },
     {
-      "icon": "fa fa-group",
+      "icon": "img/treatment_icons/facial.png",
       "title": "Hydrafacial",
       "text": "",
-      "url": "hydrafacial"
+      "url": "/hydrafacial"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Acne Solutions Facial",
+      "icon": "img/treatment_icons/eyebrow-lamination.png",
+      "title": "Lamination",
       "text": "",
-      "url": "acne-solutions-facial"
+      "url": "/lamination"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Chemical Peel",
+      "icon": "img/treatment_icons/eyebrow-lamination.png",
+      "title": "Massage",
+      "text": "need icon",
+      "url": "/massage"
+    },
+    {
+      "icon": "img/treatment_icons/eyebrow-lamination.png",
+      "title": "Microdermabrasion",
+      "text": "need icon",
+      "url": "/microdermabrasion"
+    },
+    {
+      "icon": "img/treatment_icons/microneedling.png",
+      "title": "Microneedling",
       "text": "",
-      "url": "chemical-peel"
+      "url": "/microneedling"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Restore & Rejuvenate",
-      "text": "",
-      "url": "restore-rejuvenate"
+      "icon": "img/treatment_icons/eyebrow-lamination.png",
+      "title": "Threading",
+      "text": "need icon",
+      "url": "/threading"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Eyebrow Tinting",
-      "text": "",
-      "url": "eyebrow-tinting"
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Eyebrow Lamination",
-      "text": "",
-      "url": "eyebrow-lamination"
-    },
-    {
-      "icon": "fa fa-magic",
+      "icon": "img/treatment_icons/botox.png",
       "title": "Botox",
       "text": "",
-      "url": "botox"
+      "url": "/botox"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Dermal Fillers",
+      "icon": "img/treatment_icons/derma-fillers.png",
+      "title": "Dermal Filler",
       "text": "",
-      "url": "dermal-fillers"
+      "url": "/dermal-fillers"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Threading",
-      "text": "",
-      "url": "threading"
+      "icon": "img/treatment_icons/eyebrow-lamination.png",
+      "title": "Dysport",
+      "text": "need icon",
+      "url": "/dysport"
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "img/treatment_icons/eyebrow-lamination.png",
+      "title": "Xeomin",
+      "text": "need icon",
+      "url": "/xeomin"
+    },
+    {
+      "icon": "img/treatment_icons/hair-removal.png",
       "title": "Laser Hair Removal",
       "text": "",
-      "url": "laser-hair-removal"
+      "url": "/laser-hair-removal"
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "img/treatment_icons/eyebrow-lamination.png",
       "title": "Waxing",
       "text": "",
-      "url": "waxing"
+      "url": "/waxing"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Morpheus 8",
+      "icon": "img/treatment_icons/skin-tightening.png",
+      "title": "Forma RF Skin Tightening",
       "text": "",
-      "url": "morpheus-8"
+      "url": "/formaRF"
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "img/treatment_icons/eyebrow-lamination.png",
       "title": "Lumecca IPL Facial",
-      "text": "",
-      "url": "lumecca-ipl-facial"
+      "text": "Need Icon",
+      "url": "/lumeccaIPL"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Forma RF Skin Tightening Facial",
-      "text": "",
-      "url": "forma-rf-skin-tightening-facial"
+      "icon": "img/treatment_icons/eyebrow-lamination.png",
+      "title": "Morpheus 8 RF Microneedling",
+      "text": "Need Icon",
+      "url": "/morpheus8RF"
     }
   ],
   "Special": [
