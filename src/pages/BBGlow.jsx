@@ -11,158 +11,42 @@ const BBGlow = () => {
       <div className="inner-container">
         <div className="page-text">
           <p>
-            BB Glow is a semi-permanent facial treatment that involves
-            microneedling a tinted serum into the skin to create a glowing, even
-            complexion. The serum contains nourishing ingredients like vitamins,
-            antioxidants, peptides, and a natural pigment that gives the skin a
-            brightened, dewy appearance. The treatment is popular for its
-            ability to reduce the appearance of imperfections and provide a
-            subtle "foundation-like" effect without the need for makeup.
+            Get a natural, radiant glow with our BB Glow treatment! It uses a
+            special serum with naturally sourced pigments, peptides, and
+            vitamins that are infused into your skin using nano needle
+            technology. This treatment provides light to medium coverage to help
+            reduce blemishes, dark spots, redness, and under-eye circles, while
+            the peptides and vitamins work to support healthy skin! The pigments
+            are perfectly matched to your skin tone to achieve a bright, and
+            even complexion for a semi-permanent “foundation-like” look.
           </p>
           <h3>How BB Glow Works</h3>
-          <ol className="part-a">
-            <li>
-              Cleansing and Exfoliation:
-              <ul className="inner-a">
-                <li>
-                  The skin is thoroughly cleaned and exfoliated to remove dead
-                  skin cells and prepare it for treatment.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Microneedling Application:
-              <ul className="inner-a">
-                <li>
-                  A microneedling device is used to infuse the tinted BB Glow
-                  serum into the epidermis (outer layer of the skin).
-                </li>
-              </ul>
-            </li>
-            <li>
-              Nourishment and Pigmentation:
-              <ul className="inner-a">
-                <li>
-                  The serum delivers active ingredients that hydrate and nourish
-                  the skin while the pigment evens out skin tone.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Collagen Stimulation:
-              <ul className="inner-a">
-                <li>
-                  The microneedling process stimulates collagen production,
-                  improving skin texture and elasticity over time.
-                </li>
-              </ul>
-            </li>
-          </ol>
-          <h3>Benefits of BB Glow</h3>
-          <ol className="part-a">
-            <li>
-              Evens Out Skin Tone:
-              <ul className="inner-a">
-                <li>
-                  Reduces the appearance of hyperpigmentation, redness, and
-                  uneven skin tone, leaving the skin looking brighter and more
-                  uniform.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Minimizes Imperfections:
-              <ul className="inner-a">
-                <li>
-                  Smoothens the appearance of fine lines, pores, and mild acne
-                  scars.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Provides a Natural Glow:
-              <ul className="inner-a">
-                <li>
-                  Leaves the skin with a radiant, dewy finish, mimicking the
-                  effect of lightweight makeup or BB cream.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Hydrates and Nourishes:
-              <ul className="inner-a">
-                <li>
-                  The serums used in BB Glow treatments contain hyaluronic acid,
-                  vitamins, and antioxidants that deeply hydrate the skin.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Semi-Permanent Effect:
-              <ul className="inner-a">
-                <li>
-                  Results last 4–6 months with proper skincare, reducing the
-                  need for daily foundation application.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Non-Invasive:
-              <ul className="inner-a">
-                <li>
-                  The procedure is gentle and requires minimal downtime compared
-                  to more invasive skin treatments.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Customizable Shades:
-              <ul className="inner-a">
-                <li>
-                  The pigment in the BB Glow serum can be adjusted to suit
-                  different skin tones.
-                </li>
-              </ul>
-            </li>
+          <p>
+            Product is infused into the outer layer of the skin (epidermis)
+            using a nano needle. The pigments and nutrients are then absorbed by
+            the skin to create a supple, ‘glowy’ complexion.
+          </p>
+          <h3>What are the Benefits?</h3>
+          <ol className="part-b">
+            <ul className="inner-a">
+              <li>Even skin tone </li>
+              <li>Smooths appearance of skin</li>
+              <li>Minimize the appearance of pores</li>
+              <li>Lightens hyperpigmentation</li>
+              <li>Non-invasive </li>
+              <li>Customizable shades</li>
+              <li>Time saving + Quick results</li>
+            </ul>
           </ol>
           <h3>Why BB Glow is Good</h3>
-          <ol className="part-a">
-            <li>
-              Time-Saving:
-              <ul className="inner-a">
-                <li>
-                  Ideal for those who want a "woke-up-like-this" look without
-                  daily makeup.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Enhances Confidence:
-              <ul className="inner-a">
-                <li>
-                  Helps people feel more comfortable in their natural skin by
-                  masking imperfections.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Versatile:
-              <ul className="inner-a">
-                <li>
-                  Suitable for various skin concerns, including dullness,
-                  pigmentation, and mild scarring.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Quick Results:
-              <ul className="inner-a">
-                <li>
-                  Some improvement is visible immediately after the first
-                  session, with full effects developing after a few treatments.
-                </li>
-              </ul>
-            </li>
+          <ol className="part-b">
+            <ul className="inner-a">
+              <li>Short Downtime (48-72h)</li>
+              <li>Immediate Results</li>
+              <li>
+                Only 1-3 treatments needed (2-3 weeks in-between each treatment)
+              </li>
+            </ul>
           </ol>
           <h3>Considerations</h3>
           <ol className="part-a">
