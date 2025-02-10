@@ -67,6 +67,17 @@
     padding-bottom: 5px;
   }
 
+  .part-b .inner-a li{
+    list-style: decimal;
+    list-style-position: inside;
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #404040;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
   .prices{
     
     display: flex;
