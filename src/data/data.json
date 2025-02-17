@@ -302,25 +302,53 @@
   ],  
   "Review": [
     {
-      "Icon": "img/reviews/stockIcon.png",
-      "Name": "Wolf Lamb",
-      "Date":"11-11-2024",
+      "Icon": "img/reviews/farhaz.png",
+      "Name": "Farhaz R Lalji",
+      "Date":"16-6-2025",
       "Star": "★★★★★",
-      "Content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "Content":"I had an amazing experience with the deep cleanse facial with Nadia! From the moment I walked in, the atmosphere was calming and relaxing. The aesthetician was incredibly professional and knowledgeable, taking the time to assess my skin concerns and customize the treatment accordingly.The facial itself was thorough—gentle extractions, exfoliation, and a soothing mask left my skin feeling refreshed and radiant. I noticed an immediate difference in how clear and smooth my skin looked. Plus, they used high-quality products that felt luxurious without being harsh.I also appreciated the skincare tips I received for maintaining my results at home. I’ll definitely be coming back for regular treatments. Highly recommend to anyone looking to deeply cleanse and rejuvenate their skin!"
     },
     {
-      "Icon": "img/reviews/stockIcon.png",
-      "Name": "Wolf Lamb",
-      "Date":"11-11-2024",
+      "Icon": "img/reviews/annie.png",
+      "Name": "Annie Phung",
+      "Date":"9-2-2025",
       "Star": "★★★★★",
-      "Content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "Content":"I can’t say enough about how amazing Meena is with helping me feel less anxious during my laser hair removal. The staff is wonderful and greets me well.Got a great deal on laser hair removal treatments and I will be definitely coming back for future services! 🥰🥰🥰"
     },
     {
-      "Icon": "img/reviews/stockIcon.png",
-      "Name": "Wolf Lamb",
-      "Date":"11-11-2024",
+      "Icon": "img/reviews/sarbjeet.png",
+      "Name": "Sarbjeet Malhans",
+      "Date":"2-2-2025",
       "Star": "★★★★★",
-      "Content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "Content":"I had great experiences with the laser and BB GLOW treatments. There has been a significant improvement in my skin and hair growth. Environment wise: the space is very clean, anesthetically pleasing, and comfortable. Also, the staff is very friendly and welcoming."
+    },
+    {
+      "Icon": "img/reviews/jasmine.png",
+      "Name": "Jasmine Kaur",
+      "Date":"31-1-2025",
+      "Star": "★★★★★",
+      "Content":"I had my laser treatment and it was amazing. I highly recommend it, my hair growth has decreased so much. The environment is very welcoming and friendly. I’m loving my results!"
+    },
+    {
+      "Icon": "img/reviews/abosede.png",
+      "Name": "Abosede Beatrice",
+      "Date":"17-9-2024",
+      "Star": "★★★★★",
+      "Content":"I did my chemical peel, and the changes have really improved my skin. Honestly, there is a natural turnover on my skin, making it smoother and reducing pores. I recommend Tarora Rejuvenation for your skin care. They work with all skin types and colour."
+    },
+    {
+      "Icon": "img/reviews/dawn.png",
+      "Name": "Dawn Vandermey",
+      "Date":"12-9-2024",
+      "Star": "★★★★★",
+      "Content":"By chance I came across Tatora Rejuvenation. Meena gave me her professional opinion on my facial needs. She suggested the Forma procedure.  I had 3 sessions done.  Her and Nadia were amazing, very professional and kind.  My results are exceptional.  I love how my skin looks.  My family and friends agree.  This will be my go to spa for all my skin care needs.  Thank you Nadia and Meena. See you gain."
+    },
+    {
+      "Icon": "img/reviews/sara.png",
+      "Name": "Sara Gomez",
+      "Date":"16-9-2024",
+      "Star": "★★★★★",
+      "Content":"Amazing experience for the past 2-3 years. My mom has known her for so long and now i’ve started coming aswell. I go for threading, waxing and laser hair removal and i always feel so welcome. Meena makes me feel like i am part of her family."
     }
   ],
   "BeforeAfter": [
