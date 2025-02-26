@@ -695,9 +695,6 @@ label {
   margin-top: 0;
   width: clamp(500px,90%,1500px);
   height: 70%;
-  /*
-  border: 2px solid blue;
-  */
   margin-bottom: 50px;
 }
 #BAtitle{
