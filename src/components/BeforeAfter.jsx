@@ -95,7 +95,7 @@ export const BeforeAfter = (props) => {
                     <div className="carousel-image">
                       <img src={d.baImg} alt="stock" />
                     </div>
-                    <h3 id="carousel-caption">{d.baName}</h3>
+                    <p id="carousel-caption">{d.baName}</p>
                   </div>
                 );
               })
