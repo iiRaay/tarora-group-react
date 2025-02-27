@@ -698,7 +698,6 @@ label {
   margin-top: 0;
   width: clamp(500px,90%,1500px);
   height: 80%;
-  border: 1px solid green;
   padding-bottom: 50px;
 }
 #BAtitle{
