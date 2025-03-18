@@ -768,15 +768,12 @@ review carousel arrow positioning
 
 
 .special_item{
-
-  background: white;
+  background: #333;
   border-radius: 10px;
   width: clamp(175px,25%,200px);
   height: 100%;
   padding: 20px 10px 20px 10px;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #D8B04A;
+  border:solid 2px  #D8B04A;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -794,17 +791,36 @@ review carousel arrow positioning
     width: clamp(175px,50%,350px);
   }
 }
-#special_treatment{
-  font-weight: bold;
+.special_header{
+  font-size: 2em;
+  font-weight: 600;
+  color: #B48455 ;
+  text-transform: uppercase;
 }
 
-#special_price{
-   font-size: 70px;
-   color: #D8B04A;
+.special_price{
+   font-size: 5.5em;
+   color: #B48455 ;
+   margin-top: -10px;
+}
+
+.special_sub{
+  position: relative;
+  margin-top: -0.75em;
+  margin-bottom:1em; 
+  font-size: 1.5em;
+  font-weight:500;
+  color: #B48455 ;
+}
+
+.special_terms{
+  color: #B48455 ;
 }
 
 #special_caption{
-  font-weight: 400;
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #B48455 ;
 }
 
 
@@ -847,10 +863,8 @@ margin-bottom: 40px;
 
 .reviewUnit{
  width:clamp(250px,50%,400px);
- border:#afb8c1;
- border-style: solid;
+ border:solid 2px #afb8c1;
  border-radius: 10px;
- border-width: 2px;
  margin-left: auto;
  margin-right: auto;
 }
@@ -864,7 +878,6 @@ margin-bottom: 40px;
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
-
 }
 
 .reviewerIcon{

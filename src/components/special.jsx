@@ -11,8 +11,15 @@ export const Special = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.treatment}-${i}`} className="special_item">
                   {" "}
-                  <p id="special_treatment">{d.treatment}</p>
-                  <p id="special_price">{d.price}</p>
+                  <p className="special_header">{d.header}</p>
+                  <ul>
+                    <li className="special_price">{d.price}</li>
+                    <li className="special_sub">{d.sub}</li>
+                  </ul>
+                  <p className="special_terms">
+                    <b className="special_bold">{d.bold}</b>
+                    {d.terms}
+                  </p>
                   <p id="special_caption">{d.caption}</p>
                 </div>
               ))

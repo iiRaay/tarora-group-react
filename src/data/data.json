@@ -290,14 +290,14 @@
   ],
   "Special": [
     {
-      "treatment": "Laser Hair Removal",
-      "price": "$999",
-      "caption": "First time customers only"
-    },
-    {
-      "treatment": "Microneedling",
-      "price": "$99",
-      "caption": "First time customers only"
+      "header": "Facial",
+      "price": "$50",
+      "sub": "Off",
+      "bold": "Up to ",
+      "terms":"$50 off any facial",
+      "caption": "First Time Customers Special",
+      "id": "specialBox1"
+
     }
   ],  
   "Review": [
