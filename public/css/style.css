@@ -768,7 +768,7 @@ review carousel arrow positioning
 
 .special_item{
   border-radius: 10px;
-  width: clamp(200px,25%,250px);
+  min-width:200px;
   height: 325px;
   padding: 20px 10px 20px 10px;
   border:solid 2px  #B48455;
@@ -782,12 +782,25 @@ review carousel arrow positioning
 }
 
 #specialBox2{
-  background: #444;
-}
-
-#specialBox3{
   background: #f6f6f6;
 }
+
+#beautifiLogo img{
+  width: 225px;
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px 2px rgb(0 0 0 / 25%);
+}
+
+#beautifiQR{
+  width: 225px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 2px 4px 4px 2px rgb(0 0 0 / 25%);
+}
+
 
 @media (max-width:768px){
   #special_deal{

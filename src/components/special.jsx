@@ -7,6 +7,20 @@ export const Special = (props) => {
           <h2 id="special_title">Special Deals</h2>
         </div>
         <div className="row" id="special_deal">
+          <span>
+            <a
+              href="https://app.beautifi.com/auth/sign-in?callbackUrl=https%3A%2F%2Fapp.beautifi.com%2F%3Futm_source%3Dclinic%26utm_medium%3Dqr_code%26utm_campaign%3Dbeautifibrochure%26utm_content%3Dapplication"
+              target="_blank"
+              id="beautifiLogo"
+            >
+              <img src="img\beautifi\Beautifi.png" alt="beautifi logo" />
+            </a>
+            <img
+              src="img\beautifi\BeautifiQR.png"
+              alt="beautifi QR code"
+              id="beautifiQR"
+            />
+          </span>
           {props.data
             ? props.data.map((d, i) => (
                 <div

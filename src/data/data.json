@@ -305,7 +305,7 @@
       "sub": "Off",
       "terms":"Book 4 Full Body Lasers",
       "caption": "Package Special",
-      "id": "specialBox2"
+      "id": "specialBox1"
     },
     {
       "header": "Morpheus 8",
@@ -314,7 +314,7 @@
       "bold": "Up to ",
       "terms":"$100 of any Morpheus 8",
       "caption": "Monthly Special",
-      "id": "specialBox3"
+      "id": "specialBox2"
     },
     {
       "header": "Express Hydrafacial",
@@ -322,7 +322,7 @@
       "sub": "Off",
       "terms":"Book 3 Express Hydrafacial",
       "caption": "Monthly Special",
-      "id": "specialBox3"
+      "id": "specialBox2"
     },
     {
       "header": "Threading Service",
@@ -330,7 +330,7 @@
       "sub": "with",
       "terms":"Purchase of 40 Botox Units",
       "caption": "Monthly Special",
-      "id": "specialBox3"
+      "id": "specialBox2"
     }
   ],  
   "Review": [
