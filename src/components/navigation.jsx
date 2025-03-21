@@ -72,12 +72,17 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="https://ca.alumiermd.com/collections/all?code=5677059C">
+              <a
+                href="https://ca.alumiermd.com/collections/all?code=5677059C"
+                target="_blank"
+              >
                 Products
               </a>
             </li>
             <li>
-              <a href="https://tarorarejuvenation.janeapp.com/">Book Now</a>
+              <a href="https://tarorarejuvenation.janeapp.com/" target="_blank">
+                Book Now
+              </a>
             </li>
           </ul>
         </div>

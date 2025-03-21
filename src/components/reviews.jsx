@@ -58,7 +58,7 @@ export const Reviews = (props) => {
             <p id="rating_title">Excellent</p>
             <p id="rating_star">★★★★★</p>
             <p id="review_subtitle">
-              Based on <b>40+</b> Reviews
+              Based on <b>50+</b> Reviews
             </p>
             <img
               src="img\reviews\google_logo.png"

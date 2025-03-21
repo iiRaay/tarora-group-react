@@ -757,7 +757,6 @@ review carousel arrow positioning
    justify-content: center;
    align-items: center;
 
-
 }
 
 #special_title{
@@ -768,18 +767,40 @@ review carousel arrow positioning
 
 
 .special_item{
-
-  background: white;
   border-radius: 10px;
-  width: clamp(175px,25%,200px);
-  height: 100%;
+  min-width:200px;
+  height: 325px;
   padding: 20px 10px 20px 10px;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #D8B04A;
+  border:solid 2px  #B48455;
   margin-right: 10px;
   margin-left: 10px;
+  box-shadow: 2px 4px 4px 2px rgb(0 0 0 / 25%);
 }
+
+#specialBox1{
+  background: black;
+}
+
+#specialBox2{
+  background: #f6f6f6;
+}
+
+#beautifiLogo img{
+  width: 225px;
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px 2px rgb(0 0 0 / 25%);
+}
+
+#beautifiQR{
+  width: 225px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 2px 4px 4px 2px rgb(0 0 0 / 25%);
+}
+
 
 @media (max-width:768px){
   #special_deal{
@@ -794,17 +815,36 @@ review carousel arrow positioning
     width: clamp(175px,50%,350px);
   }
 }
-#special_treatment{
-  font-weight: bold;
+.special_header{
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #B48455 ;
+  text-transform: uppercase;
 }
 
-#special_price{
-   font-size: 70px;
-   color: #D8B04A;
+.special_price{
+   font-size: 5.5em;
+   color: #B48455 ;
+   margin-top: -10px;
+}
+
+.special_sub{
+  position: relative;
+  margin-top: -0.75em;
+  margin-bottom:1em; 
+  font-size: 1.5em;
+  font-weight:500;
+  color: #B48455 ;
+}
+
+.special_terms{
+  color: #B48455 ;
 }
 
 #special_caption{
-  font-weight: 400;
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #B48455 ;
 }
 
 
@@ -847,10 +887,8 @@ margin-bottom: 40px;
 
 .reviewUnit{
  width:clamp(250px,50%,400px);
- border:#afb8c1;
- border-style: solid;
+ border:solid 2px #afb8c1;
  border-radius: 10px;
- border-width: 2px;
  margin-left: auto;
  margin-right: auto;
 }
@@ -864,7 +902,6 @@ margin-bottom: 40px;
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
-
 }
 
 .reviewerIcon{

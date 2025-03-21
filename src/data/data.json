@@ -290,14 +290,47 @@
   ],
   "Special": [
     {
-      "treatment": "Laser Hair Removal",
-      "price": "$999",
-      "caption": "First time customers only"
+      "header": "Facial",
+      "price": "$50",
+      "sub": "Off",
+      "bold": "Up to ",
+      "terms":"$50 off any facial",
+      "caption": "First Time Customers Special",
+      "id": "specialBox1"
+
     },
     {
-      "treatment": "Microneedling",
-      "price": "$99",
-      "caption": "First time customers only"
+      "header": "Full Body Lasers",
+      "price": "$500",
+      "sub": "Off",
+      "terms":"Book 4 Full Body Lasers",
+      "caption": "Package Special",
+      "id": "specialBox1"
+    },
+    {
+      "header": "Morpheus 8",
+      "price": "$100",
+      "sub": "Off",
+      "bold": "Up to ",
+      "terms":"$100 of any Morpheus 8",
+      "caption": "Monthly Special",
+      "id": "specialBox2"
+    },
+    {
+      "header": "Express Hydrafacial",
+      "price": "$75",
+      "sub": "Off",
+      "terms":"Book 3 Express Hydrafacial",
+      "caption": "Monthly Special",
+      "id": "specialBox2"
+    },
+    {
+      "header": "Threading Service",
+      "price": "FREE",
+      "sub": "with",
+      "terms":"Purchase of 40 Botox Units",
+      "caption": "Monthly Special",
+      "id": "specialBox2"
     }
   ],  
   "Review": [
