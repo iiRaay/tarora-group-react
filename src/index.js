@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client'; // ✅ React 18 update
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import { SpeedInsights } from "@vercel/speed-insights/react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App';
 import Microneedling from "./pages/Microneedling";
@@ -48,7 +47,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <SpeedInsights />
     <RouterProvider router={router} />
   </React.StrictMode>
 );

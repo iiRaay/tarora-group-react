@@ -14,6 +14,7 @@ import { Reviews } from "./components/reviews";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -30,6 +31,7 @@ const App = () => {
   }, []);
   return (
     <div>
+      <SpeedInsights /> 
       <Navigation />
       <Header data={landingPageData.Header} />
       <Special data={landingPageData.Special} />
