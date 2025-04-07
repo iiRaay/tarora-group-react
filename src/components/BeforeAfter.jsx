@@ -92,7 +92,7 @@ export const BeforeAfter = (props) => {
             ? props.data.map((d, i) => {
                 return (
                   <div key={`${d.id}-${i}`} className="carousel-slide">
-                    <div className="carousel-image">
+                    <div className="carousel-image" aria-label={d.aria}>
                       <img src={d.baImg} alt="stock" />
                     </div>
                     <p id="carousel-caption">{d.baName}</p>

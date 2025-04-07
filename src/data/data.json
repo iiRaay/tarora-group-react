@@ -165,12 +165,6 @@
       "bio": "As the Clinical Receptionist at Tarora Rejuvenation, Muskan is the welcoming face that greets every client with a warm smile and ensures a seamless experience from start to finish. With a passion for customer service and a deep understanding of the clinic's wide range of aesthetic treatments, Muskan provides exceptional support by managing appointments, answering inquiries, and guiding clients through their journey to looking and feeling their best."
     },
     {
-      "img": "img/team/isabelle1.jpg",
-      "name": "Isabelle",
-      "job": "Medical Aesthetician",
-      "bio": "Isabelle brings a unique understanding of skin challenges, and a deep commitment to helping clients achieve their skin goals through personalized treatments and education. Isabelle ensures a welcoming atmosphere while expertly managing appointments, patient records, and day-to-day clinic operations. With a focus on both effective treatments and building lasting client relationships, Isabelle is here to provide both effective skincare solutions and a seamless, positive experience from start to finish."
-    },
-      {
       "img": "img/team/serkalem1.jpg",
       "name": "Serkalem Yimer",
       "job": "Massage Therapist",
@@ -388,67 +382,80 @@
     {
       "id": 0,
       "baName": "Acne Solution",
-      "baImg": "img/before_after/acneFacialSolutions.jpg"
+      "baImg": "img/before_after/acneFacialSolutions.jpg",
+      "aria":"Acne Before After"
     },
     {
       "id": 1,
       "baName": "Botox",
-      "baImg": "img/before_after/botox.jpg"
+      "baImg": "img/before_after/botox.jpg",
+      "aria":"Botox Before After"
     },
     {
       "id": 2,
       "baName": "Chemical Peel",
-      "baImg": "img/before_after/chemicalPeel.jpg"
+      "baImg": "img/before_after/chemicalPeel.jpg",
+      "aria":"Chemical Peel Before After"
     },
     {
       "id": 3,
       "baName": "Derma Filler",
-      "baImg": "img/before_after/dermalfillers.jpg"
+      "baImg": "img/before_after/dermalfillers.jpg",
+      "aria":"Derma Filler Before After"
     },
     {
       "id": 4,
       "baName": "Dermaplaning",
-      "baImg": "img/before_after/dermplaning.jpg"
+      "baImg": "img/before_after/dermplaning.jpg",
+      "aria":"Dermaplaning Before After"
     },
     {
       "id": 5,
       "baName": "Eyebrow Laminating",
-      "baImg": "img/before_after/eyebrowLamination.jpg"
+      "baImg": "img/before_after/eyebrowLamination.jpg",
+      "aria":"Eyebrow Lamination Before After"
     },
     {
       "id": 6,
       "baName": "Eyebrow Tinting",
-      "baImg": "img/before_after/eyebrowTinting.jpg"
+      "baImg": "img/before_after/eyebrowTinting.jpg",
+      "aria":"Eyebrow Tinting Before After"
     },
     {
       "id": 7,
       "baName": "RF Skin Tightening",
-      "baImg": "img/before_after/formaRFSkinTightening.jpg"
+      "baImg": "img/before_after/formaRFSkinTightening.jpg",
+      "aria":"RF Skin Tightening Before After"
     },
     {
       "id": 8,
       "baName": "Hydrafacial",
-      "baImg": "img/before_after/hydrafacial.jpg"
+      "baImg": "img/before_after/hydrafacial.jpg",
+      "aria":"Hydrafacial Before After"
     },
     {
       "id": 9,
       "baName": "Laser Hair Removal",
-      "baImg": "img/before_after/laserhairremoval.jpg"
+      "baImg": "img/before_after/laserhairremoval.jpg",
+      "aria":"Laser Hair Removal Before After"
     },
     {
       "id": 10,
       "baName": "Lumeccal IPL Facial",
-      "baImg": "img/before_after/lumeccaIPLFacial.jpeg"
+      "baImg": "img/before_after/lumeccaIPLFacial.jpeg",
+      "aria":"Lumeccal IPL Before After"
     },
     {
       "id": 11,
       "baName": "Microneedling",
-      "baImg": "img/before_after/microneedling.jpeg"
+      "baImg": "img/before_after/microneedling.jpeg",
+      "aria":"Microneedling Before After"
     },
     {
       "id": 12,
       "baName": "Morpheus 8",
-      "baImg": "img/before_after/morpheus8.jpg"
+      "baImg": "img/before_after/morpheus8.jpg",
+      "aria":"Morpheus8 Before After"
     }
   ],
   "": {}
