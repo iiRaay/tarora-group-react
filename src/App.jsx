@@ -11,6 +11,7 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { Special } from "./components/special";
 import { Reviews } from "./components/reviews";
+import Popup from "./components/Popup/popup";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -21,9 +22,6 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
-
-
-
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
@@ -31,9 +29,10 @@ const App = () => {
   }, []);
   return (
     <div>
-      <SpeedInsights /> 
+      <SpeedInsights />
       <Navigation />
       <Header data={landingPageData.Header} />
+      <Popup />
       <Special data={landingPageData.Special} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
