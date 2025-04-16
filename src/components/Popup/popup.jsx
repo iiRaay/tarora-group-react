@@ -20,7 +20,7 @@ function Popup() {
       <button className="popup-button" onClick={togglePopup}>
         Open
       </button>
-    */}
+      */}
       {popupOpen && (
         <div className="popup">
           <div className="popup-overlay" onClick={togglePopup}></div>
