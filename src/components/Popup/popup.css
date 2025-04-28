@@ -19,9 +19,13 @@ body.active-popup{
     bottom: 0;
 }
 
+.popup{
+    z-index: 1;
+}
 .popup-overlay{
     background: rgb(0, 0, 0, 0.7);
 }
+
 
 .popup-content {
     position: absolute;
@@ -33,6 +37,7 @@ body.active-popup{
     border-radius: 10px;
     max-width: 600px;
     min-width: 300px;
+
 }
 
 

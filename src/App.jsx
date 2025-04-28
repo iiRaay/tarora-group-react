@@ -32,7 +32,7 @@ const App = () => {
       <SpeedInsights />
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Popup />
+      {/*<Popup />*/}
       <Special data={landingPageData.Special} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
