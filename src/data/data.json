@@ -153,22 +153,10 @@
       "bio": "As the Premier registered nurse of Tarora Rejuvenation, Rahab brings extensive medical and Aesthetical experience to the field, With over 10 years of experience as a nurse, and over 5 years as an injector; she strives to make the beauty process as relaxing as possible while making you look astonishingly captivating."
     },
     {
-      "img": "img/team/nadia.jpeg",
-      "name": "Nadia",
-      "job": "Registered Nurse",
-      "bio": "As a skilled Nurse Injector at Tarora Rejuvenation, Nadia brings over 3 years of experience in the aesthetics industry, specializing in Botox and fillers. She is proficient in a wide range of injection techniques and provides tailored recommendations to help you achieve your desired look. Nadia ensures you are fully informed and confident in making the best choices to enhance your natural beauty."
-    },
-    {
-      "img": "img/team/muskan.jpeg",
+      "img": "img/team/muskan.png",
       "name": "Muskan",
       "job": "Clinical Receptionist",
       "bio": "As the Clinical Receptionist at Tarora Rejuvenation, Muskan is the welcoming face that greets every client with a warm smile and ensures a seamless experience from start to finish. With a passion for customer service and a deep understanding of the clinic's wide range of aesthetic treatments, Muskan provides exceptional support by managing appointments, answering inquiries, and guiding clients through their journey to looking and feeling their best."
-    },
-    {
-      "img": "img/team/serkalem1.jpg",
-      "name": "Serkalem Yimer",
-      "job": "Massage Therapist",
-      "bio": "As a highly skilled Massage Therapist at Tarora, Serkalem brings over 3 years of experience in the wellness industry and is proficient in a wide range of massage techniques. She provides exceptional guidance and customized massage solutions, ensuring that you are well-informed and receive the best possible treatment to achieve ultimate relaxation and well-being."
     },
     {
       "img": "img/team/anoop.png",
@@ -177,10 +165,10 @@
       "bio": "Anoop is a certified medical esthetician at Tarora Rejuvenation who is deeply passionate about helping every client feel confident and cared for. She continuously strives to grow her knowledge and perfect her skills to deliver the best possible results. With a warm, personalized approach to treatments like facials, laser, microneedling, and dermaplaning, Anoop is dedicated to creating a relaxing experience and making every client leave with a smile."
     },
     {
-      "img": "img/team/sukneet.png",
-      "name": "Sukneet",
-      "job": "Medical Esthetician",
-      "bio": "Sukhneet is a Medical Esthetician with a passion for glowing skin and good vibes. With a curious mind and steady hands, she’s all about helping clients feel confident in their own skin—one treatment at a time. Whether it’s customizing facials or diving deep into skin science, Neetu brings both heart and hustle to every appointment. She’s excited to grow with the industry, stay on top of the latest innovations, and sprinkle a little skincare magic wherever she goes."
+      "img": "img/team/serkalem1.jpg",
+      "name": "Serkalem Yimer",
+      "job": "Massage Therapist",
+      "bio": "As a highly skilled Massage Therapist at Tarora, Serkalem brings over 3 years of experience in the wellness industry and is proficient in a wide range of massage techniques. She provides exceptional guidance and customized massage solutions, ensuring that you are well-informed and receive the best possible treatment to achieve ultimate relaxation and well-being."
     }
   ],
   "Contact": {
