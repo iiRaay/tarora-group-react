@@ -465,6 +465,7 @@ header .intro-text {
 /* Team Section */
 #team {
   padding: 100px 0;
+
 }
 
 #team h4 {
@@ -473,8 +474,7 @@ header .intro-text {
 
 #team .team-img {
   width: 240px;
-  max-height: 260px;
-  
+  height: 250px;
 }
 
 #team .thumbnail {
