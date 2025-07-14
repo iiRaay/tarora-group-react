@@ -1,49 +1,57 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client'; // ✅ React 18 update
-import './index.css';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom/client"; // ✅ React 18 update
+import "./index.css";
+import * as serviceWorker from "./serviceWorker";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from './App';
+import App from "./App";
 import Microneedling from "./pages/Microneedling";
-import Dermaplaning from './pages/Dermaplaning';
-import Hydrafacial from './pages/HydraFacial';
-import Microdermabrasion from './pages/Microdermabrasion'; // ✅ Fixed extra space
-import BBGlow from './pages/BBGlow';
-import Morpheus8 from './pages/Morpheus8';
-import FormaRF from './pages/FormaRF';
-import LumeccaIPL from './pages/LumeccaIPL';
-import Lamination from './pages/Lamination';
-import Threading from './pages/Threading';
-import LaserHairRemoval from './pages/LaserHairRemoval';
-import Waxing from './pages/Waxing'; 
-import Dermalfillers from './pages/Dermalfillers';
-import Botox from './pages/Botox';
-import Dysport from './pages/Dysport';
-import Xeomin from './pages/Xeomin';
-import Massage from './pages/Massage';
+import Dermaplaning from "./pages/Dermaplaning";
+import Hydrafacial from "./pages/HydraFacial";
+import Microdermabrasion from "./pages/Microdermabrasion"; // ✅ Fixed extra space
+import BBGlow from "./pages/BBGlow";
+import Morpheus8 from "./pages/Morpheus8";
+import FormaRF from "./pages/FormaRF";
+import LumeccaIPL from "./pages/LumeccaIPL";
+import Lamination from "./pages/Lamination";
+import Threading from "./pages/Threading";
+import LaserHairRemoval from "./pages/LaserHairRemoval";
+import Waxing from "./pages/Waxing";
+import Dermalfillers from "./pages/Dermalfillers";
+import Botox from "./pages/Botox";
+import Dysport from "./pages/Dysport";
+import Xeomin from "./pages/Xeomin";
+import Massage from "./pages/Massage";
+import RouteWithAnalytics from "./components/RouteWithAnalytics";
+import { initGA } from "./analytics";
+
+initGA();
+
+const addAnalytics = (element) => (
+  <RouteWithAnalytics>{element}</RouteWithAnalytics>
+);
 
 const router = createBrowserRouter([
-    { path: "/", element: <App /> },
-    { path: "/microneedling", element: <Microneedling /> },
-    { path: "/dermaplaning", element: <Dermaplaning /> },
-    { path: "/hydrafacial", element: <Hydrafacial /> },
-    { path: "/microdermabrasion", element: <Microdermabrasion /> },
-    { path: "/bbglow", element: <BBGlow /> },
-    { path: "/morpheus8RF", element: <Morpheus8 /> },
-    { path: "/formaRF", element: <FormaRF /> },
-    { path: "/lumeccaIPL", element: <LumeccaIPL /> },
-    { path: "/lamination", element: <Lamination /> },
-    { path: "/threading", element: <Threading /> },
-    { path: "/laser-hair-removal", element: <LaserHairRemoval /> },
-    { path: "/waxing", element: <Waxing /> },
-    { path: "/dermal-fillers", element: <Dermalfillers /> },
-    { path: "/botox", element: <Botox /> },
-    { path: "/dysport", element: <Dysport /> },
-    { path: "/xeomin", element: <Xeomin /> },
-    { path: "/massage", element: <Massage /> }
+  { path: "/", element: addAnalytics(<App />) },
+  { path: "/microneedling", element: addAnalytics(<Microneedling />) },
+  { path: "/dermaplaning", element: addAnalytics(<Dermaplaning />) },
+  { path: "/hydrafacial", element: addAnalytics(<Hydrafacial />) },
+  { path: "/microdermabrasion", element: addAnalytics(<Microdermabrasion />) },
+  { path: "/bbglow", element: addAnalytics(<BBGlow />) },
+  { path: "/morpheus8RF", element: addAnalytics(<Morpheus8 />) },
+  { path: "/formaRF", element: addAnalytics(<FormaRF />) },
+  { path: "/lumeccaIPL", element: addAnalytics(<LumeccaIPL />) },
+  { path: "/lamination", element: addAnalytics(<Lamination />) },
+  { path: "/threading", element: addAnalytics(<Threading />) },
+  { path: "/laser-hair-removal", element: addAnalytics(<LaserHairRemoval />) },
+  { path: "/waxing", element: addAnalytics(<Waxing />) },
+  { path: "/dermal-fillers", element: addAnalytics(<Dermalfillers />) },
+  { path: "/botox", element: addAnalytics(<Botox />) },
+  { path: "/dysport", element: addAnalytics(<Dysport />) },
+  { path: "/xeomin", element: addAnalytics(<Xeomin />) },
+  { path: "/massage", element: addAnalytics(<Massage />) },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
